@@ -1,0 +1,54 @@
+[
+  {
+    "id": "0e085484-60fe-42a3-8263-7205a5cf2c41",
+    "data": [
+      {
+        "text": "Cough_Diet",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "561d29b4-a333-483d-b48d-7efdb741fdac",
+    "data": [
+      {
+        "text": "give me some diet tips for cough",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "33eaeffe-e1ae-4b6a-bc14-9411cf349585",
+    "data": [
+      {
+        "text": "tell me some diet plan fro cough",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "6e0b0871-f080-4bdc-bbd1-1b8e0bcab07b",
+    "data": [
+      {
+        "text": "diet for cough",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  }
+]

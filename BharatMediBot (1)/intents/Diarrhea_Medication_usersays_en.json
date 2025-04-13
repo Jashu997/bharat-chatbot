@@ -1,0 +1,132 @@
+[
+  {
+    "id": "d2a3430e-9f6a-42a1-aa99-902670bca5ab",
+    "data": [
+      {
+        "text": "Diarrhea_Medication",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "1aa96b55-44a2-44b8-84c0-28465b7bb7ea",
+    "data": [
+      {
+        "text": "What\u0027s the  medicine for diarrhea?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "b846b412-095c-4211-9429-0e9d1f19fed7",
+    "data": [
+      {
+        "text": "this medicine stop diarrhea quickly?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "6ee60649-4cab-42cd-aa06-82198eec193c",
+    "data": [
+      {
+        "text": "this diarrhea medicine safe daily?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "5a2ea88f-5ded-446b-a80c-f4c6acf61092",
+    "data": [
+      {
+        "text": "What\u0027s the dosage for this medicine?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "5f7f3cfe-83a6-4e95-a670-de5118e05c01",
+    "data": [
+      {
+        "text": "Does this medicine cause dehydration?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "fdced0c7-b255-49ab-a28b-561538ce1ce1",
+    "data": [
+      {
+        "text": "I take this with antibiotics?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "ef88638b-0405-4f49-a6ec-e6fcb81332e3",
+    "data": [
+      {
+        "text": "Which medicine reduces diarrhea?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "8a961f85-c7b3-4722-b8fe-be0e630111e3",
+    "data": [
+      {
+        "text": "this medicine stop diarrhea ?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "d1b185ad-563c-4900-bd7a-4d10fc8b13fe",
+    "data": [
+      {
+        "text": "this medicine work for viral diarrhea?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  }
+]

@@ -1,0 +1,39 @@
+{
+  "id": "07f2ef5a-14fc-4bae-a9fb-bcec21ba6f9d",
+  "parentId": "6d985a7f-0768-4fb4-be0b-9bbd03249bdc",
+  "rootParentId": "cee0156a-863d-4b57-bbc1-2c3084488805",
+  "name": "Confirm_Gum_Motions",
+  "auto": true,
+  "contexts": [
+    "Diarrhea_Symptom_Check-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "Diarrhea.Diarrhea-custom-2.Diarrhea_Symptom_Check-custom",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "this symptoms seems like gum motion please consult your doctor for further checkup"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

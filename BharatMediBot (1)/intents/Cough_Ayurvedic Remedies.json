@@ -1,0 +1,39 @@
+{
+  "id": "d9376cd1-f847-4891-8049-b15e1558810b",
+  "parentId": "3f315675-bfcf-4f88-8221-632826e70dc0",
+  "rootParentId": "9ddf1e42-6a90-4d9d-b1d1-3e3468bb3bac",
+  "name": "Cough_Ayurvedic Remedies",
+  "auto": true,
+  "contexts": [
+    "Cough_Remedies-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "Cough.Cough-custom.Cough_Remedies-custom",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Chew and eat garlic, as it has antibacterial and antiviral properties. Additionally, take some turmeric with honey to soothe the throat and reduce irritation.\n\nAnother effective remedy: To take Karakkaya (Haritaki) powder, add it to boiling water, and let it steep. Pour it into a glass, add some honey, and drink it twice a day for best results."
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

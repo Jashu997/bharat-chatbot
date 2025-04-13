@@ -1,0 +1,28 @@
+[
+  {
+    "id": "68592d7d-f5a8-42ef-a640-287a38ef2058",
+    "data": [
+      {
+        "text": "check your constipation symptoms",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "0b08c4f3-5fde-41f3-a82b-9b2ed037be01",
+    "data": [
+      {
+        "text": "Confirm_Common_Constipation",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  }
+]

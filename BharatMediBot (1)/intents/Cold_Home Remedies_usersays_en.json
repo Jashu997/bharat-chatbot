@@ -1,0 +1,41 @@
+[
+  {
+    "id": "f61e0ae6-c29e-4bf3-a124-d4f9bf87b281",
+    "data": [
+      {
+        "text": "Cold_Home Remedies",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "5929c1c7-af09-4a7b-ab17-677267ad376c",
+    "data": [
+      {
+        "text": "home remedies for cold",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "7b823070-f270-413d-8e33-33aa5295b2af",
+    "data": [
+      {
+        "text": "give me some home remedies for cold",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  }
+]

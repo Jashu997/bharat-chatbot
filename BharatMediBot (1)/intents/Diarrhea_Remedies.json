@@ -1,0 +1,78 @@
+{
+  "id": "f65d1f60-9962-4559-b75b-51bac3948f83",
+  "parentId": "cee0156a-863d-4b57-bbc1-2c3084488805",
+  "rootParentId": "cee0156a-863d-4b57-bbc1-2c3084488805",
+  "name": "Diarrhea_Remedies",
+  "auto": true,
+  "contexts": [
+    "Diarrhea-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "Diarrhea.Diarrhea-custom",
+      "affectedContexts": [
+        {
+          "name": "Diarrhea-custom-followup",
+          "lifespan": 2
+        },
+        {
+          "name": "Diarrhea_Remedies-followup",
+          "lifespan": 2
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Please let me know which type of remedies do you want?"
+          ],
+          "condition": ""
+        },
+        {
+          "type": "4",
+          "title": "",
+          "payload": {
+            "richContent": [
+              [
+                {
+                  "type": "chips",
+                  "options": [
+                    {
+                      "postback": "Diarrhea_Home Remedies",
+                      "text": "Diarrhea Home Remedies"
+                    },
+                    {
+                      "postback": "Diarrhea_Naturopathy Remedies",
+                      "text": "Diarrhea Naturopathy Remedies"
+                    },
+                    {
+                      "text": "Diarrhea Ayurvedic Remedies",
+                      "postback": "Diarrhea_Ayurvedic Remedies"
+                    }
+                  ]
+                }
+              ]
+            ]
+          },
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

@@ -1,0 +1,39 @@
+{
+  "id": "ce20c46a-100a-477d-9dcf-d2392ee47eef",
+  "parentId": "79f9536e-c8b0-466c-a06b-0b3504e9c7ec",
+  "rootParentId": "fcbaf4b2-e1a7-4591-80d4-25013ed26c79",
+  "name": "Stress_Home Remedie",
+  "auto": true,
+  "contexts": [
+    "Stress_Remedies-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "Stress.Stress-custom-2.Stress_Remedies-custom",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "take 3 to 4 Tulasi leaves chew and swallow reduces stress and pressure and improves the energy"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

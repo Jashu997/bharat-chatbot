@@ -1,0 +1,39 @@
+{
+  "id": "6c9a015f-bc57-45df-9726-0e630b503436",
+  "parentId": "28eba950-b855-4413-ab6c-321c20b1ed2f",
+  "rootParentId": "28eba950-b855-4413-ab6c-321c20b1ed2f",
+  "name": "Constipation_Diet",
+  "auto": true,
+  "contexts": [
+    "Constipation-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "Constipation.Constipation-custom-2",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Fiber supports the microbiome :the healthy balance of bacteria in the digestive track so,eat fiber rich foods like apple,banana,greenleafy vegetables,whole grains cooked vegetables, aslo eat curd rice which contains good bacteria like Lactobacillus which supports gut health"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

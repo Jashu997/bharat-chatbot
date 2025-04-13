@@ -1,0 +1,67 @@
+[
+  {
+    "id": "b5392ae9-cb41-42c0-a75d-895065dc8134",
+    "data": [
+      {
+        "text": "Cold _Remedies",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "89bfbfd9-dadf-46d5-aa04-ac27e778c479",
+    "data": [
+      {
+        "text": "remedies for cold",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "26350b76-3bf7-4a4a-8bd6-62616604bd13",
+    "data": [
+      {
+        "text": "some remedies for cold",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "5cb0d62e-3a18-47ee-aed7-d03ea3a76d34",
+    "data": [
+      {
+        "text": "provide me some remedies for cold",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "c701436e-3e4a-446f-a2a3-cae253834ed8",
+    "data": [
+      {
+        "text": "please tell me some remedies for cold",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  }
+]

@@ -1,0 +1,70 @@
+{
+  "id": "4ef58bba-9d64-41d2-9666-bd3f2b4b1c70",
+  "parentId": "6a71c7d2-b451-4f13-b9bd-c10bda9675a7",
+  "rootParentId": "6a71c7d2-b451-4f13-b9bd-c10bda9675a7",
+  "name": "other_illeness_Remedies",
+  "auto": true,
+  "contexts": [
+    "some_remedies-followup",
+    "other_illeness-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "other_illeness.other_illeness-custom",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "please check the remedies for other illeness"
+          ],
+          "condition": ""
+        },
+        {
+          "type": "4",
+          "title": "",
+          "payload": {
+            "richContent": [
+              [
+                {
+                  "type": "chips",
+                  "options": [
+                    {
+                      "postback": "Other_illeness_Fits",
+                      "text": "Other_illness_Fits Remedies"
+                    },
+                    {
+                      "postback": "Other_illeness_Migraine",
+                      "text": "Other_illeness_Migraine Remedies"
+                    },
+                    {
+                      "text": "Other_illeness_piles Remedies",
+                      "postback": "Other_illeness_piles"
+                    }
+                  ]
+                }
+              ]
+            ]
+          },
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

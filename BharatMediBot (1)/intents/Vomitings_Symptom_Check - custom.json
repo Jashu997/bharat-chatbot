@@ -1,0 +1,36 @@
+{
+  "id": "6e44fae0-e235-41a0-bf3a-247833915327",
+  "parentId": "c4296269-0ce8-415f-a595-b3d31ce84788",
+  "rootParentId": "c606f90c-84aa-4eab-83f4-7d5ee32f8ded",
+  "name": "Vomitings_Symptom_Check - custom",
+  "auto": true,
+  "contexts": [
+    "Vomitings_Symptom_Check-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "Vomitings.Vomitings-custom-4.Vomitings_Symptom_Check-custom",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

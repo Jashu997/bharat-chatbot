@@ -1,0 +1,39 @@
+{
+  "id": "0e6650be-7b78-4708-bb4e-b05b8d3a0075",
+  "parentId": "28eba950-b855-4413-ab6c-321c20b1ed2f",
+  "rootParentId": "28eba950-b855-4413-ab6c-321c20b1ed2f",
+  "name": "Constipation_Medication",
+  "auto": true,
+  "contexts": [
+    "Constipation-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "Constipation.Constipation-custom-2",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "TOPLAC (Lactulose Solution USP), Dose- 10gm/15ml, cause- Lactulose is used to treat constipation. It helps increase the number of bowel movements per day and the number of days on which bowel movements occur in patients with a history of chronic (long-lasting) constipation"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

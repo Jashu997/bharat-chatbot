@@ -1,0 +1,39 @@
+{
+  "id": "4ee5b54a-c801-479a-a438-6a67b92b2dda",
+  "parentId": "c4296269-0ce8-415f-a595-b3d31ce84788",
+  "rootParentId": "c606f90c-84aa-4eab-83f4-7d5ee32f8ded",
+  "name": "Confirm_Motion_Sickness",
+  "auto": true,
+  "contexts": [
+    "Vomitings_Symptom_Check-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "Vomitings.Vomitings-custom-4.Vomitings_Symptom_Check-custom",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Motion sickness occurs when there is a disconnect between what your eyes see and what your inner ear senses during movement, such as in a car, boat, or airplane,To prevent it, focus on a fixed point, avoid reading while traveling, stay hydrated, and take deep breaths. take consult rom medical \"practitioner and do accordingly"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

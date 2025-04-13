@@ -1,0 +1,39 @@
+{
+  "id": "32fcdf02-510f-440b-89f7-4d8b9e2679f4",
+  "parentId": "380fb146-1c07-4096-bff1-bb194e888098",
+  "rootParentId": "9ddf1e42-6a90-4d9d-b1d1-3e3468bb3bac",
+  "name": "Other_Cough_Symptoms",
+  "auto": true,
+  "contexts": [
+    "Cough_Symptom_Check-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "Cough.Cough-custom-3.Cough_Symptom_Check-custom",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Cough can present with various symptoms depending on the underlying cause,I can\u0027t trigger symptoms what exactly you have so please consult the doctor for further treatment"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

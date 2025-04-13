@@ -1,0 +1,39 @@
+{
+  "id": "1b899de9-c942-4c5a-b79c-ac79ecd185ea",
+  "parentId": "cee0156a-863d-4b57-bbc1-2c3084488805",
+  "rootParentId": "cee0156a-863d-4b57-bbc1-2c3084488805",
+  "name": "Diarrhea_Medication",
+  "auto": true,
+  "contexts": [
+    "Diarrhea-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "Diarrhea.Diarrhea-custom-3",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "LOPAMIDE (Lopamide hydrochloride tablets I.P.)  Dose-2mg cause-Lopamide Tablet is an anti-diarrhoeal medication. It works by slowing down the contraction of the intestines thereby decreasing the speed at which the contents pass through it. This allows more time for reabsorption of fluids and nutrients, making the stools more solid and less frequent."
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

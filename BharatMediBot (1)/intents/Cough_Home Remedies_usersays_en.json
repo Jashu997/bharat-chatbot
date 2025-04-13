@@ -1,0 +1,54 @@
+[
+  {
+    "id": "40c49d78-528f-4a80-9dfa-9ad06d5afdb1",
+    "data": [
+      {
+        "text": "Cough_Home Remedies",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "914237dc-27f4-4265-ac28-b0596b55a65a",
+    "data": [
+      {
+        "text": "tell me some home remedies for cough",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "707848f5-4ba7-4d4c-9276-36ddd5bb82da",
+    "data": [
+      {
+        "text": "home remedies for cough",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "7a90f26c-8240-403b-ae0f-6d1cf468ef4a",
+    "data": [
+      {
+        "text": "tell me some Home remedies of cough",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  }
+]

@@ -1,0 +1,77 @@
+{
+  "id": "3c57b544-2f8f-40e7-8dd8-c11a03649e61",
+  "parentId": "c40be56e-72f9-41a5-b3b8-ca30f7faabca",
+  "rootParentId": "c40be56e-72f9-41a5-b3b8-ca30f7faabca",
+  "name": "Cold_Symptom_Check",
+  "auto": true,
+  "contexts": [
+    "Cold-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "Cold.Cold-custom-2",
+      "affectedContexts": [
+        {
+          "name": "Cold_Symptom_Check-followup",
+          "lifespan": 2
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "could you please tell me which type of cold symptoms do you have?"
+          ],
+          "condition": ""
+        },
+        {
+          "type": "4",
+          "title": "",
+          "payload": {
+            "richContent": [
+              [
+                {
+                  "title": "Possible common cold Symptoms",
+                  "type": "description",
+                  "text": [
+                    "Sore throat, cough, sneezing, runny or stuffy nose, loss of smell or taste, fatigue or tiredness, body aches or low-grade fever, chest discomfort, difficulty breathing, chills, headache, and hoarse voice"
+                  ]
+                },
+                {
+                  "type": "chips",
+                  "options": [
+                    {
+                      "postback": "Confirm_common_Cold",
+                      "text": "Confirm common Cold Symptoms"
+                    },
+                    {
+                      "postback": "Other_Cold_Symptoms",
+                      "text": "Other Symptoms"
+                    }
+                  ]
+                }
+              ]
+            ]
+          },
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

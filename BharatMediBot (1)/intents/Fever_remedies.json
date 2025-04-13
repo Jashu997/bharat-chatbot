@@ -1,0 +1,70 @@
+{
+  "id": "9fc8059d-901f-49f7-9862-86037c4e78dd",
+  "parentId": "aec7ed07-d8da-4833-9562-c2ff8fd518e5",
+  "rootParentId": "aec7ed07-d8da-4833-9562-c2ff8fd518e5",
+  "name": "Fever_remedies",
+  "auto": true,
+  "contexts": [
+    "Fever-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "Fever.Fever-custom",
+      "affectedContexts": [
+        {
+          "name": "Fever_remedies-followup",
+          "lifespan": 2
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "may i know which type of remedies do you want"
+          ],
+          "condition": ""
+        },
+        {
+          "type": "4",
+          "title": "",
+          "payload": {
+            "richContent": [
+              [
+                {
+                  "options": [
+                    {
+                      "text": "Fever Home Remedies",
+                      "postback": "Fever_Home Remedies"
+                    },
+                    {
+                      "postback": "Fever_Naturopathy Remedies",
+                      "text": "Fever Naturopathy Remedies"
+                    }
+                  ],
+                  "type": "chips"
+                }
+              ]
+            ]
+          },
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

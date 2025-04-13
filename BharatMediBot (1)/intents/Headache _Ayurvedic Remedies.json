@@ -1,0 +1,39 @@
+{
+  "id": "a6938f89-643f-475f-85db-7938f72478f3",
+  "parentId": "30e758ed-b458-4519-be50-8bce8df806ce",
+  "rootParentId": "30e758ed-b458-4519-be50-8bce8df806ce",
+  "name": "Headache _Ayurvedic Remedies",
+  "auto": true,
+  "contexts": [
+    "Headache-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "Headache.Headache-custom-2",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Take a handful of coriander seeds (dhaniyalu) and mix them with a little water to make a thick paste. Apply this paste to the affected area (maadu)"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

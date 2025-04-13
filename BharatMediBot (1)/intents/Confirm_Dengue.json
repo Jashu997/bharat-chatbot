@@ -1,0 +1,39 @@
+{
+  "id": "2730bb34-2192-4d93-bf3a-fb5a912a53be",
+  "parentId": "48ae11f2-0fbe-47c2-97cc-63506c56cea8",
+  "rootParentId": "aec7ed07-d8da-4833-9562-c2ff8fd518e5",
+  "name": "Confirm_Dengue",
+  "auto": true,
+  "contexts": [
+    "Fever_Symptom_Check-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "Fever.Fever-custom.Fever_Symptom_Check-custom",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "This symptoms looks like dengue fever,Dengue fever is a viral infection transmitted by mosquitoes,I it is very important to consult your doctor for good treatment"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

@@ -1,0 +1,39 @@
+{
+  "id": "4d7f410d-8c29-4897-833d-d34ac6534686",
+  "parentId": "3c57b544-2f8f-40e7-8dd8-c11a03649e61",
+  "rootParentId": "c40be56e-72f9-41a5-b3b8-ca30f7faabca",
+  "name": "Other_Cold_Symptoms",
+  "auto": true,
+  "contexts": [
+    "Cold_Symptom_Check-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "Cold.Cold-custom-2.Cold_Symptom_Check-custom-2",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "I\u0027m here to provide general information, but I can\u0027t diagnose specific conditions or confirm if your symptoms indicate something more serious. If you\u0027re experiencing severe symptoms , or prolonged illness, it\u0027s best to consult a doctor for proper evaluation and treatment.\""
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

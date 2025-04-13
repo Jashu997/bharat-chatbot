@@ -1,0 +1,39 @@
+{
+  "id": "aa563ea6-15f5-4b50-9d15-598d9338571b",
+  "parentId": "30e758ed-b458-4519-be50-8bce8df806ce",
+  "rootParentId": "30e758ed-b458-4519-be50-8bce8df806ce",
+  "name": "Headache_Naturopathy Remedies",
+  "auto": true,
+  "contexts": [
+    "Headache-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "Headache.Headache-custom-3",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "drink more water which is up to 4 to 5 liters to get your body cool and some electrolytes like coconut water"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

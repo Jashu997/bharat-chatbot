@@ -1,0 +1,39 @@
+{
+  "id": "b90de499-7656-42af-b573-d6604ebf4c47",
+  "parentId": "1b855248-5ead-48e1-ba18-a58d46f46f4c",
+  "rootParentId": "28eba950-b855-4413-ab6c-321c20b1ed2f",
+  "name": "Constipation_Ayurvedic Remedies",
+  "auto": true,
+  "contexts": [
+    "Constipation_Remedies-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "Constipation.Constipation-custom-3.Constipation_Remedies-custom",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Eat Neem fruit and spit out the seeds. This helps with good bowel movements"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

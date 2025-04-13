@@ -1,0 +1,39 @@
+{
+  "id": "54b2ed6c-a47e-44d9-a28a-fcb563332b82",
+  "parentId": "c48b757d-5406-4c78-a388-db91e755cbdc",
+  "rootParentId": "faa64acd-45a4-4d90-bd01-d0acbe576c99",
+  "name": "Confirm_High_BP",
+  "auto": true,
+  "contexts": [
+    "BP_symptom_check-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "BP.BP-custom.BP_symptom_check-custom",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "It looks like you\u0027re experiencing symptoms of high blood pressure. While this bot can provide general guidance, it’s important to consult a healthcare professional for an accurate diagnosis and proper treatment. Please reach out to your doctor as soon as possible."
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

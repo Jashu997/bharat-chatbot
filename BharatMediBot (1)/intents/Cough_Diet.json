@@ -1,0 +1,39 @@
+{
+  "id": "8c70c4f5-1f56-4d2b-b47d-e0c2d8511be7",
+  "parentId": "9ddf1e42-6a90-4d9d-b1d1-3e3468bb3bac",
+  "rootParentId": "9ddf1e42-6a90-4d9d-b1d1-3e3468bb3bac",
+  "name": "Cough_Diet",
+  "auto": true,
+  "contexts": [
+    "Cough-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "Cough.Cough-custom",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "This is an pasting technique which is for 2 to 3 by taking lemon and honey water with some addition coconut water as a diet with steam inhaling hot water bath after 2 to 3 days based on your sickness drink plenty of water at morning a nd then honey water up to your lunch  and then evening take good fruit meat with some boiled vegetables"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

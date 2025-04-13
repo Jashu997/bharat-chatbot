@@ -1,0 +1,39 @@
+{
+  "id": "32196c32-e00e-4d9f-946e-ef79086fa410",
+  "parentId": "22a3c224-d4af-4307-aca6-3a133f7d9e5c",
+  "rootParentId": "28eba950-b855-4413-ab6c-321c20b1ed2f",
+  "name": "Confirm_Common_Constipation",
+  "auto": true,
+  "contexts": [
+    "Constipation_Symptom_Check-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "Constipation.Constipation-custom.Constipation_Symptom_Check-custom",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "I can\u0027t determine other constipation-related symptoms. If you\u0027re experiencing severe or unusual symptoms, please consult your doctor for proper evaluation and guidance"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

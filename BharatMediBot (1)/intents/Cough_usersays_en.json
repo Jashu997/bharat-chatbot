@@ -1,0 +1,54 @@
+[
+  {
+    "id": "87b04f67-3f88-42f5-a412-e62427b7cb8c",
+    "data": [
+      {
+        "text": "Cough",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "04c06b26-1e2f-4fc8-9d43-a778c22efb23",
+    "data": [
+      {
+        "text": "let em know about Cough",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "a753aabb-03ea-443a-be1c-03109367ab6c",
+    "data": [
+      {
+        "text": " tell me some remedies for cough",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "c412f1bd-1fcf-4986-867f-e6c2b028783e",
+    "data": [
+      {
+        "text": "provide me some services for cough",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  }
+]

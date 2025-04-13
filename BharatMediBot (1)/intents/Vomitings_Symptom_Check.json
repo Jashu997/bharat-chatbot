@@ -1,0 +1,92 @@
+{
+  "id": "c4296269-0ce8-415f-a595-b3d31ce84788",
+  "parentId": "c606f90c-84aa-4eab-83f4-7d5ee32f8ded",
+  "rootParentId": "c606f90c-84aa-4eab-83f4-7d5ee32f8ded",
+  "name": "Vomitings_Symptom_Check",
+  "auto": true,
+  "contexts": [
+    "Vomitings-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "Vomitings.Vomitings-custom-4",
+      "affectedContexts": [
+        {
+          "name": "Vomitings_Symptom_Check-followup",
+          "lifespan": 2
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "please check the  vomitings symptoms"
+          ],
+          "condition": ""
+        },
+        {
+          "type": "4",
+          "title": "",
+          "payload": {
+            "richContent": [
+              [
+                {
+                  "title": "Possible Food Poisoning Symptoms",
+                  "text": [
+                    "Nausea, vomiting, diarrhea, stomach cramps, fever, weakness, and dehydration."
+                  ],
+                  "type": "description"
+                },
+                {
+                  "options": [
+                    {
+                      "text": "Confirm Food Poisoning Symptoms",
+                      "postback": "Confirm_Food_Poisoning"
+                    }
+                  ],
+                  "type": "chips"
+                },
+                {
+                  "type": "divider"
+                },
+                {
+                  "title": "Possible Motion Sickness Symptoms",
+                  "text": [
+                    "Dizziness, nausea, vomiting, sweating, headache, and feeling unwell while traveling."
+                  ],
+                  "type": "description"
+                },
+                {
+                  "type": "chips",
+                  "options": [
+                    {
+                      "text": "Confirm Motion Sickness Symptoms",
+                      "postback": "Confirm_Motion_Sickness"
+                    }
+                  ]
+                }
+              ]
+            ]
+          },
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

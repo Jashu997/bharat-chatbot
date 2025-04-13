@@ -1,0 +1,74 @@
+{
+  "id": "5f5e14a9-8932-466b-84af-35b63eec67f0",
+  "parentId": "c606f90c-84aa-4eab-83f4-7d5ee32f8ded",
+  "rootParentId": "c606f90c-84aa-4eab-83f4-7d5ee32f8ded",
+  "name": "Vomitings_Remedies",
+  "auto": true,
+  "contexts": [
+    "Vomitings-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "Vomitings.Vomitings-custom-3",
+      "affectedContexts": [
+        {
+          "name": "Vomitings_Remedies-followup",
+          "lifespan": 2
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Please let me know which type of remedies do you want?"
+          ],
+          "condition": ""
+        },
+        {
+          "type": "4",
+          "title": "",
+          "payload": {
+            "richContent": [
+              [
+                {
+                  "options": [
+                    {
+                      "text": "Vomitings Home Remedies",
+                      "postback": "Vomitings_Home Remedies"
+                    },
+                    {
+                      "text": "Vomitings Naturopathy Remedies",
+                      "postback": "Vomitings_Naturopathy Remedies"
+                    },
+                    {
+                      "postback": "Vomitings_Ayurvedic Remedies",
+                      "text": "Vomitings Ayurvedic Remedies"
+                    }
+                  ],
+                  "type": "chips"
+                }
+              ]
+            ]
+          },
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

@@ -1,0 +1,39 @@
+{
+  "id": "e390dbe9-e418-4357-8d33-59e06765a2b5",
+  "parentId": "f6cb32f3-ebe7-46f1-a559-45b36abac242",
+  "rootParentId": "30e758ed-b458-4519-be50-8bce8df806ce",
+  "name": "Other_Headache_Symptoms",
+  "auto": true,
+  "contexts": [
+    "Headache_Symptom_check-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "Headache.Headache-custom.Headache_Symptom_check-custom",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Headaches can come with various symptoms depending on the type and cause,so if you feel any of other symptoms consult physician"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

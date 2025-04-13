@@ -1,0 +1,28 @@
+[
+  {
+    "id": "42c13776-43ba-4313-aacf-0bdf84b1b2c7",
+    "data": [
+      {
+        "text": "provide me some naturopathy remedies for fever",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "688d1b74-1b62-4d3f-a208-f61540fcde44",
+    "data": [
+      {
+        "text": "tell me some naturopathy remedies",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  }
+]

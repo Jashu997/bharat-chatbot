@@ -1,0 +1,41 @@
+[
+  {
+    "id": "38e87930-8061-490e-b740-f3cb0b25ea95",
+    "data": [
+      {
+        "text": "provide me some remedies for headache",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 1,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "4f1a2c46-221e-43a9-b18a-106080e60600",
+    "data": [
+      {
+        "text": "I want some remedies for headache",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "2b44e6d8-5d59-4473-86a8-4c0ec51984b8",
+    "data": [
+      {
+        "text": "Headache_Remedies",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  }
+]

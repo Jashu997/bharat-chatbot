@@ -1,0 +1,39 @@
+{
+  "id": "9410b89b-4e3c-4d25-a8b4-1310db475e42",
+  "parentId": "c606f90c-84aa-4eab-83f4-7d5ee32f8ded",
+  "rootParentId": "c606f90c-84aa-4eab-83f4-7d5ee32f8ded",
+  "name": "Vomitings_Diet",
+  "auto": true,
+  "contexts": [
+    "Vomitings-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "Vomitings.Vomitings-custom",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "To support digestion and overall health, consume potassium-rich foods like bananas, fiber-rich foods, herbal teas, probiotics, and plain rice. Stay well-hydrated by drinking plenty of water and natural electrolytes such as coconut water"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

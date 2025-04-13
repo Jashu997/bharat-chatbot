@@ -1,0 +1,39 @@
+{
+  "id": "9cbaf9df-68fe-430f-a34f-47a0089e876d",
+  "parentId": "1b855248-5ead-48e1-ba18-a58d46f46f4c",
+  "rootParentId": "28eba950-b855-4413-ab6c-321c20b1ed2f",
+  "name": "Constipation_Naturopathy Remedies",
+  "auto": true,
+  "contexts": [
+    "Constipation_Remedies-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "Constipation.Constipation-custom-3.Constipation_Remedies-custom-3",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "waking up early in the morning, drink two glasses of warm water that was stored in a copper vessel the previous day while sitting in a malasana position. Then, eat a pinch of ginger sprinkled with rock salt."
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

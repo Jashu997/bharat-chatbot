@@ -1,0 +1,54 @@
+[
+  {
+    "id": "3cf32d33-f77d-4064-96e5-73810ef855b3",
+    "data": [
+      {
+        "text": "Migraine",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "dde04bc8-139e-47e9-b995-3a3cdff6b020",
+    "data": [
+      {
+        "text": "Other_illeness_Migraine",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "e8e2d4d7-d58a-4265-8aa0-bb062b849b7c",
+    "data": [
+      {
+        "text": "provide me some remedies for migraine",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "8f8f2232-a8c5-49c0-bcf2-b485ba03575d",
+    "data": [
+      {
+        "text": "Are there any effective home remedies for managing migraines?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  }
+]

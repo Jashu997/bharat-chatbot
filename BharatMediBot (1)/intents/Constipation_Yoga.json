@@ -1,0 +1,39 @@
+{
+  "id": "9bcfc5f8-3951-4640-969d-773461b3a452",
+  "parentId": "28eba950-b855-4413-ab6c-321c20b1ed2f",
+  "rootParentId": "28eba950-b855-4413-ab6c-321c20b1ed2f",
+  "name": "Constipation_Yoga",
+  "auto": true,
+  "contexts": [
+    "Constipation-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "Constipation.Constipation-custom-4",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "It is good to practice Malasana, as it provides multiple health benefits, including improved digestion, flexibility, and better blood circulation"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

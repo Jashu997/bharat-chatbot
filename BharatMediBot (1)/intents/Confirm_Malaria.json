@@ -1,0 +1,39 @@
+{
+  "id": "ab96102d-78b0-4170-9d65-90c84813a01f",
+  "parentId": "48ae11f2-0fbe-47c2-97cc-63506c56cea8",
+  "rootParentId": "aec7ed07-d8da-4833-9562-c2ff8fd518e5",
+  "name": "Confirm_Malaria",
+  "auto": true,
+  "contexts": [
+    "Fever_Symptom_Check-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "Fever.Fever-custom.Fever_Symptom_Check-custom",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "It seem like malaria symptoms I would suggest you to please consult your doctor"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

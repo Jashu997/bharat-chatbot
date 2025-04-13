@@ -1,0 +1,67 @@
+[
+  {
+    "id": "07a74a80-d0e3-4466-821b-6493ad000092",
+    "data": [
+      {
+        "text": "Constipation",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "b64a6621-1bd7-42d6-af01-d711fbcfcb8c",
+    "data": [
+      {
+        "text": "please provide me some diet while suffering with costipation",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "c27a6df3-145a-403e-ba87-408232dcca91",
+    "data": [
+      {
+        "text": "I want some remedies for constipation",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "cb1f8caa-1385-4dc8-bb7a-79777e7cf1dd",
+    "data": [
+      {
+        "text": "tell me some remedies for constipation",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "1bdde505-53b8-47c2-b59f-0ce2df26976d",
+    "data": [
+      {
+        "text": "provide me some services for constipation",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  }
+]

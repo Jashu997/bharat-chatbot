@@ -1,0 +1,74 @@
+{
+  "id": "e162b194-d029-47ff-b027-de7abb681c6a",
+  "parentId": "faa64acd-45a4-4d90-bd01-d0acbe576c99",
+  "rootParentId": "faa64acd-45a4-4d90-bd01-d0acbe576c99",
+  "name": "BP_remedies",
+  "auto": true,
+  "contexts": [
+    "BP-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "BP.BP-custom",
+      "affectedContexts": [
+        {
+          "name": "BP_remedies-followup",
+          "lifespan": 2
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Please let me know which type of BP remedies do you want?"
+          ],
+          "condition": ""
+        },
+        {
+          "type": "4",
+          "title": "",
+          "payload": {
+            "richContent": [
+              [
+                {
+                  "type": "chips",
+                  "options": [
+                    {
+                      "text": "BP Home Remedies",
+                      "postback": "BP_Home Remedies"
+                    },
+                    {
+                      "text": "BP Naturopathy Remedies",
+                      "postback": "BP_Naturopathy Remedies"
+                    },
+                    {
+                      "text": "BP Ayurvedic Remedies",
+                      "postback": "BP_Ayurvedic Remedies"
+                    }
+                  ]
+                }
+              ]
+            ]
+          },
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

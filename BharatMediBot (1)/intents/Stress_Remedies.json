@@ -1,0 +1,66 @@
+{
+  "id": "79f9536e-c8b0-466c-a06b-0b3504e9c7ec",
+  "parentId": "fcbaf4b2-e1a7-4591-80d4-25013ed26c79",
+  "rootParentId": "fcbaf4b2-e1a7-4591-80d4-25013ed26c79",
+  "name": "Stress_Remedies",
+  "auto": true,
+  "contexts": [
+    "Stress-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "Stress.Stress-custom-2",
+      "affectedContexts": [
+        {
+          "name": "Stress_Remedies-followup",
+          "lifespan": 2
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Please let me know which type of remedies do you want?"
+          ],
+          "condition": ""
+        },
+        {
+          "type": "4",
+          "title": "",
+          "payload": {
+            "richContent": [
+              [
+                {
+                  "type": "chips",
+                  "options": [
+                    {
+                      "text": "Stress Home Remedie",
+                      "postback": "Stress_Home Remedie"
+                    }
+                  ]
+                }
+              ]
+            ]
+          },
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

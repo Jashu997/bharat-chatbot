@@ -1,0 +1,39 @@
+{
+  "id": "ab14d163-e233-416d-a198-c904c5b75f25",
+  "parentId": "9fc8059d-901f-49f7-9862-86037c4e78dd",
+  "rootParentId": "aec7ed07-d8da-4833-9562-c2ff8fd518e5",
+  "name": "Fever_Home Remedies",
+  "auto": true,
+  "contexts": [
+    "Fever_remedies-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "Fever.Fever-custom.Fever_remedies-custom",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Take 5 grams of coriander seeds (Dhaniyalu), 3 grams of cumin seeds (Jeelakarra), and 5 grams of ginger, and lightly crush them. Add this mixture to a glass of boiling water and let it simmer until the liquid reduces to one-fourth of its original quantity. Strain the decoction and drink it warm to help reduce fever and chills if your symptoms getting worse please consult your doctor"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

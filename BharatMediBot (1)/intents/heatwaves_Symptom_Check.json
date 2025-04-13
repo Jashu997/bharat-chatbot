@@ -1,0 +1,77 @@
+{
+  "id": "cf18523e-202d-4e42-9a20-6149527a4dae",
+  "parentId": "f7509895-4605-4add-9635-9557a2b6ff60",
+  "rootParentId": "f7509895-4605-4add-9635-9557a2b6ff60",
+  "name": "heatwaves_Symptom_Check",
+  "auto": true,
+  "contexts": [
+    "heatwaves-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "heatwaves.heatwaves-custom",
+      "affectedContexts": [
+        {
+          "name": "heatwaves_Symptom_Check-followup",
+          "lifespan": 2
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "please check your symptoms"
+          ],
+          "condition": ""
+        },
+        {
+          "type": "4",
+          "title": "",
+          "payload": {
+            "richContent": [
+              [
+                {
+                  "title": "Possible Heat Waves Symptoms",
+                  "type": "description",
+                  "text": [
+                    "High body temperature, excessive sweating, dizziness, nausea, headache, rapid heartbeat, dehydration, and muscle cramps."
+                  ]
+                },
+                {
+                  "type": "chips",
+                  "options": [
+                    {
+                      "postback": "Confirm_Heat_Waves",
+                      "text": "Confirm Heat Waves Symptoms"
+                    },
+                    {
+                      "postback": "Other_Heat_Waves_Symptoms",
+                      "text": "Other"
+                    }
+                  ]
+                }
+              ]
+            ]
+          },
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

@@ -1,0 +1,39 @@
+{
+  "id": "37ff23ef-6ad2-4a61-8b2b-ec9d27353044",
+  "parentId": "6a71c7d2-b451-4f13-b9bd-c10bda9675a7",
+  "rootParentId": "6a71c7d2-b451-4f13-b9bd-c10bda9675a7",
+  "name": "Other_illeness_Fits",
+  "auto": true,
+  "contexts": [
+    "some_remedies-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "some_remedies.some_remedies-custom-2",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "coriander leaves or powder with hot water can helps for fits patient"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

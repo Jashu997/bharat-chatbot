@@ -1,0 +1,74 @@
+{
+  "id": "1b855248-5ead-48e1-ba18-a58d46f46f4c",
+  "parentId": "28eba950-b855-4413-ab6c-321c20b1ed2f",
+  "rootParentId": "28eba950-b855-4413-ab6c-321c20b1ed2f",
+  "name": "Constipation_Remedies",
+  "auto": true,
+  "contexts": [
+    "Constipation-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "Constipation.Constipation-custom-3",
+      "affectedContexts": [
+        {
+          "name": "Constipation_Remedies-followup",
+          "lifespan": 2
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Let me know which type of remedies do you want?"
+          ],
+          "condition": ""
+        },
+        {
+          "type": "4",
+          "title": "",
+          "payload": {
+            "richContent": [
+              [
+                {
+                  "options": [
+                    {
+                      "text": "Constipation Home Remedies",
+                      "postback": "Constipation_Home Remedies"
+                    },
+                    {
+                      "postback": "Constipation_Naturopathy Remedies",
+                      "text": "Constipation Naturopathy Remedies"
+                    },
+                    {
+                      "postback": "Constipation_Ayurvedic Remedies",
+                      "text": "Constipation Ayurvedic Remedies"
+                    }
+                  ],
+                  "type": "chips"
+                }
+              ]
+            ]
+          },
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

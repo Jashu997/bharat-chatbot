@@ -1,0 +1,39 @@
+{
+  "id": "e46ca4e0-bd09-43f4-9855-a401b040e544",
+  "parentId": "f6cb32f3-ebe7-46f1-a559-45b36abac242",
+  "rootParentId": "30e758ed-b458-4519-be50-8bce8df806ce",
+  "name": "Confirm_Sinus_Headache",
+  "auto": true,
+  "contexts": [
+    "Headache_Symptom_check-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "Headache.Headache-custom.Headache_Symptom_check-custom",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "A sinus headache occurs due to inflammation or congestion in the sinuses, often caused by infections, allergies, or cold weather,To relieve it, try steam inhalation, stay hydrated, use a warm compress, and avoid allergens. If symptoms persist or worsen, consult a doctor"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

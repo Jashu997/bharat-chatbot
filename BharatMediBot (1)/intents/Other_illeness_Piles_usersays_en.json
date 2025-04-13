@@ -1,0 +1,41 @@
+[
+  {
+    "id": "bf834262-62f1-40ef-8979-2a6b0b02b759",
+    "data": [
+      {
+        "text": "Other_illeness_Piles",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "4b081b0a-2512-4b1a-a1bf-21f5aa8bafd6",
+    "data": [
+      {
+        "text": "Are there any over-the-counter remedies for piles?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "8fa3d8bf-2823-4b99-b953-eb61e1588396",
+    "data": [
+      {
+        "text": "What are the common treatments available for piles?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  }
+]

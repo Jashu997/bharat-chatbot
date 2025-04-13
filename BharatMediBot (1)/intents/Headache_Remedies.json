@@ -1,0 +1,69 @@
+{
+  "id": "8eca8ec6-5263-416f-ae2d-880c7305ccc7",
+  "parentId": "30e758ed-b458-4519-be50-8bce8df806ce",
+  "rootParentId": "30e758ed-b458-4519-be50-8bce8df806ce",
+  "name": "Headache_Remedies",
+  "auto": true,
+  "contexts": [
+    "Headache-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "Headache.Headache-custom",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "let me know which type of remedies do you want?"
+          ],
+          "condition": ""
+        },
+        {
+          "type": "4",
+          "title": "",
+          "payload": {
+            "richContent": [
+              [
+                {
+                  "options": [
+                    {
+                      "text": "Headache Home Remedies",
+                      "postback": "Headache_Home Remedies"
+                    },
+                    {
+                      "text": "Headache Naturopathy Remedies",
+                      "postback": "Headache_Naturopathy Remedies"
+                    },
+                    {
+                      "text": "Headache Ayurvedic Remedies",
+                      "postback": "Headache_Ayurvedic Remedies"
+                    }
+                  ],
+                  "type": "chips"
+                }
+              ]
+            ]
+          },
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

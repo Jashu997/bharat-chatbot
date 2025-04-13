@@ -1,0 +1,39 @@
+{
+  "id": "ea8f170e-f4b3-43f7-952b-2b2c7a0222e5",
+  "parentId": "1b855248-5ead-48e1-ba18-a58d46f46f4c",
+  "rootParentId": "28eba950-b855-4413-ab6c-321c20b1ed2f",
+  "name": "Constipation_Home Remedies",
+  "auto": true,
+  "contexts": [
+    "Constipation_Remedies-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "Constipation.Constipation-custom-3.Constipation_Remedies-custom-2",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Take 5 grams of ginger and 5 grams of jaggery, grind them well, and eat this at night and drink some water which helps for constipation problem"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

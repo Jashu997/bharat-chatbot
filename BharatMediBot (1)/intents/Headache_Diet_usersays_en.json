@@ -1,0 +1,54 @@
+[
+  {
+    "id": "4047e3dd-097b-4038-8a31-3783262d5d15",
+    "data": [
+      {
+        "text": "I want some diet for headache",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "afacb683-6d48-4393-8db7-c0257e7005fb",
+    "data": [
+      {
+        "text": "headache diet",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "7960bbb3-603e-40d6-bdfa-6390cb119fed",
+    "data": [
+      {
+        "text": "provide me some diet for headache",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "2de12bfd-3525-4c1c-9e3b-2a62a89f8995",
+    "data": [
+      {
+        "text": "Headache_Diet",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  }
+]

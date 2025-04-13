@@ -1,0 +1,39 @@
+{
+  "id": "fa8e098c-320e-41d9-a18f-04654103cc74",
+  "parentId": "e162b194-d029-47ff-b027-de7abb681c6a",
+  "rootParentId": "faa64acd-45a4-4d90-bd01-d0acbe576c99",
+  "name": "BP_Ayurvedic Remedies",
+  "auto": true,
+  "contexts": [
+    "BP_remedies-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "BP.BP-custom.BP_remedies-custom-3",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Add garlic to your diet to help reduce high blood pressure. Fenugreek contains calcium, fiber, and helps reduce bad cholesterol. Dark chocolate also helps reduce hypertension. Eat bananas for a good potassium intake, which helps lower blood pressure"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

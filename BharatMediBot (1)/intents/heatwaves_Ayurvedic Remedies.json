@@ -1,0 +1,39 @@
+{
+  "id": "5575c2c4-7771-46c5-b843-8ea5f1036e16",
+  "parentId": "734f115c-1d76-4adc-94ce-9298335d2e19",
+  "rootParentId": "f7509895-4605-4add-9635-9557a2b6ff60",
+  "name": "heatwaves_Ayurvedic Remedies",
+  "auto": true,
+  "contexts": [
+    "heatwaves_Remedies-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "heatwaves.heatwaves-custom-4.heatwaves_Remedies-custom",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Take equal amounts of Tippatiga (Balloon Vine) dried leaves, Usori Gavaravu (Gooseberry), and Parpatakam (Fumaria Indica) and grind them into a fine powder. Take 20 to 30 grams of this powder and add it to 4 glasses of water. Boil the mixture until it reduces to 1 glass,For best results, consume 2 to 3 tablespoons of the warm decoction morning and evening."
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

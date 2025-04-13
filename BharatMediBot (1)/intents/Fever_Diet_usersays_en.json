@@ -1,0 +1,41 @@
+[
+  {
+    "id": "e34c803e-b0f2-4f10-b5ce-4672c133864d",
+    "data": [
+      {
+        "text": "tell me some natural foods for fever",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "010953c2-af7a-44aa-9dd8-c60eb0c83c98",
+    "data": [
+      {
+        "text": "some diet for fever",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "7e4977a1-5420-44bd-9d8f-ef7b6e974315",
+    "data": [
+      {
+        "text": "please provide me some foods while suffering with fever",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  }
+]

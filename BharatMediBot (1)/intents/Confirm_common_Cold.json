@@ -1,0 +1,39 @@
+{
+  "id": "3be5cee9-2b97-4fe1-a639-9c543b11ffb9",
+  "parentId": "3c57b544-2f8f-40e7-8dd8-c11a03649e61",
+  "rootParentId": "c40be56e-72f9-41a5-b3b8-ca30f7faabca",
+  "name": "Confirm_common_Cold",
+  "auto": true,
+  "contexts": [
+    "Cold_Symptom_Check-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "Cold.Cold-custom-2.Cold_Symptom_Check-custom",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "It looks like you may have common cold symptoms (caused by the Rhinovirus), which can result from allergies, infections, low immunity, or exposure to infected individuals. If you’d like, I can suggest remedies, diet tips, and activities to help manage your symptoms. For further evaluation, please consult a doctor.\""
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

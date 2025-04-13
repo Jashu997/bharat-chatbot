@@ -1,0 +1,39 @@
+{
+  "id": "865df177-d767-439c-ba76-f9dfa4d085a0",
+  "parentId": "c40be56e-72f9-41a5-b3b8-ca30f7faabca",
+  "rootParentId": "c40be56e-72f9-41a5-b3b8-ca30f7faabca",
+  "name": "Cold_Diet",
+  "auto": true,
+  "contexts": [
+    "Cold-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "Cold.Cold-custom-4",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Make sure to maintain good water intake and consume fluids like buttermilk and soups. Also, add fruits and vegetables such as broccoli, cranberries, and blueberries, along with green tea and red onions, to support your overall health."
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

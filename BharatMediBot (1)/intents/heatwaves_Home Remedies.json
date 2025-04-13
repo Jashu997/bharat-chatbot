@@ -1,0 +1,39 @@
+{
+  "id": "019bb62f-9521-47db-8662-7c026b743db4",
+  "parentId": "734f115c-1d76-4adc-94ce-9298335d2e19",
+  "rootParentId": "f7509895-4605-4add-9635-9557a2b6ff60",
+  "name": "heatwaves_Home Remedies",
+  "auto": true,
+  "contexts": [
+    "heatwaves_Remedies-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "heatwaves.heatwaves-custom-4.heatwaves_Remedies-custom-2",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "1.glass of  buttermilk,A pinch of salt,1 teaspoon of sugar A few drops of lemon juice mix well which helps for  Preventing dehydration Soothes the stomach and  Balances electrolytes in body                                                                            \n                                                                         2    \n\nTake fresh ash gourd, cut it into pieces, and grind well to extract the juice. Filter it and take 15 to 20 ml of the juice, adding a little sugar for taste. Consume this 3 to 4 times a day to keep the body hydrated and protect against heat waves."
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

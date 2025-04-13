@@ -1,0 +1,39 @@
+{
+  "id": "d951580e-966b-4bb3-ae5d-640090da0ae6",
+  "parentId": "f6cb32f3-ebe7-46f1-a559-45b36abac242",
+  "rootParentId": "30e758ed-b458-4519-be50-8bce8df806ce",
+  "name": "Confirm_Cluster_Headache",
+  "auto": true,
+  "contexts": [
+    "Headache_Symptom_check-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "Headache.Headache-custom.Headache_Symptom_check-custom-3",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Cluster headaches are extremely painful headaches that occur in cycles, usually affecting one side of the head, often around the eye,To manage symptoms, maintain a consistent sleep schedule, avoid known triggers, and practice relaxation techniques. If episodes are frequent or severe, consult a doctor for medical treatment."
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

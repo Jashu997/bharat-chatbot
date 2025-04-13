@@ -1,0 +1,40 @@
+{
+  "id": "27d4a480-857f-4737-9636-871f2fc6132d",
+  "parentId": "c48b757d-5406-4c78-a388-db91e755cbdc",
+  "rootParentId": "faa64acd-45a4-4d90-bd01-d0acbe576c99",
+  "name": "Other_BP_Symptoms",
+  "auto": true,
+  "contexts": [
+    "BP_Symptom_Check-followup",
+    "BP_symptom_check-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "BP.BP-custom.BP_symptom_check-custom",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "I understand that you\u0027re experiencing other BP symptoms. Since this bot is limited in providing medical diagnoses, I highly recommend consulting a qualified doctor for proper evaluation and treatment"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

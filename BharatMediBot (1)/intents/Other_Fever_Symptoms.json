@@ -1,0 +1,39 @@
+{
+  "id": "f7008f93-402f-4edd-a8a2-6bac200cca7a",
+  "parentId": "48ae11f2-0fbe-47c2-97cc-63506c56cea8",
+  "rootParentId": "aec7ed07-d8da-4833-9562-c2ff8fd518e5",
+  "name": "Other_Fever_Symptoms",
+  "auto": true,
+  "contexts": [
+    "Fever_Symptom_Check-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "Fever.Fever-custom.Fever_Symptom_Check-custom-3",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "If you feel like some other symptoms with fever or any difficulty in your symptoms please consult your physician"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

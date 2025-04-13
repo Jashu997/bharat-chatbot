@@ -1,0 +1,134 @@
+{
+  "id": "1148889e-56d2-47c1-860e-a43377e9964f",
+  "parentId": "fcbaf4b2-e1a7-4591-80d4-25013ed26c79",
+  "rootParentId": "fcbaf4b2-e1a7-4591-80d4-25013ed26c79",
+  "name": "Stress_Symptom_Check",
+  "auto": true,
+  "contexts": [
+    "Stress-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "Stress.Stress-custom",
+      "affectedContexts": [
+        {
+          "name": "Stress_Symptom_Check-followup",
+          "lifespan": 2
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "please check  if you have any of the  stress symptoms"
+          ],
+          "condition": ""
+        },
+        {
+          "type": "4",
+          "title": "",
+          "payload": {
+            "richContent": [
+              [
+                {
+                  "text": [
+                    "Frequent headaches, muscle tension, fatigue, difficulty sleeping, irritability, difficulty concentrating, anxiety, and digestive issues."
+                  ],
+                  "type": "description",
+                  "title": "Possible Stress Symptoms"
+                },
+                {
+                  "options": [
+                    {
+                      "text": "Confirm Stress Symptoms",
+                      "postback": "Confirm_Stress_Symptoms"
+                    }
+                  ],
+                  "type": "chips"
+                },
+                {
+                  "type": "divider"
+                },
+                {
+                  "text": [
+                    "Feeling overwhelmed, mood swings, increased irritability, difficulty relaxing, feeling lonely or depressed."
+                  ],
+                  "type": "description",
+                  "title": "Possible Emotional Stress Symptoms"
+                },
+                {
+                  "options": [
+                    {
+                      "text": "Confirm Emotional Stress Symptoms",
+                      "postback": "Confirm_Emotional_Stress"
+                    }
+                  ],
+                  "type": "chips"
+                },
+                {
+                  "type": "divider"
+                },
+                {
+                  "text": [
+                    "Frequent colds, rapid heartbeat, muscle pain, low energy, changes in appetite, digestive problems."
+                  ],
+                  "type": "description",
+                  "title": "Possible Physical Stress Symptoms"
+                },
+                {
+                  "options": [
+                    {
+                      "postback": "Confirm_Physical_Stress",
+                      "text": "Confirm Physical Stress Symptoms"
+                    }
+                  ],
+                  "type": "chips"
+                },
+                {
+                  "type": "divider"
+                },
+                {
+                  "text": [
+                    "Constant worrying, racing thoughts, forgetfulness, poor judgment, trouble focusing."
+                  ],
+                  "type": "description",
+                  "title": "Possible Mental Stress Symptoms"
+                },
+                {
+                  "type": "chips",
+                  "options": [
+                    {
+                      "text": "Confirm Mental Stress Symptoms",
+                      "postback": "Confirm_Mental_Stress"
+                    },
+                    {
+                      "postback": "Other_Stress_Symptoms",
+                      "text": "Other Symptoms"
+                    }
+                  ]
+                }
+              ]
+            ]
+          },
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

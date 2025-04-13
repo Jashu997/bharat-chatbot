@@ -1,0 +1,134 @@
+{
+  "id": "48ae11f2-0fbe-47c2-97cc-63506c56cea8",
+  "parentId": "aec7ed07-d8da-4833-9562-c2ff8fd518e5",
+  "rootParentId": "aec7ed07-d8da-4833-9562-c2ff8fd518e5",
+  "name": "Fever_Symptom_Check",
+  "auto": true,
+  "contexts": [
+    "Fever-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "Fever.Fever-custom",
+      "affectedContexts": [
+        {
+          "name": "Fever_Symptom_Check-followup",
+          "lifespan": 2
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "please choose the fever symptoms most relevant to you"
+          ],
+          "condition": ""
+        },
+        {
+          "type": "4",
+          "title": "",
+          "payload": {
+            "richContent": [
+              [
+                {
+                  "title": "Possible Fever Symptoms",
+                  "text": [
+                    "High temperature, chills, sweating, body aches, fatigue, headache, loss of appetite, nausea, dizziness, and dehydration."
+                  ],
+                  "type": "description"
+                },
+                {
+                  "type": "chips",
+                  "options": [
+                    {
+                      "text": "Confirm Common Fever Symptoms",
+                      "postback": "Confirm_Common_Fever"
+                    }
+                  ]
+                },
+                {
+                  "type": "divider"
+                },
+                {
+                  "title": "Possible Typhoid Symptoms",
+                  "text": [
+                    "high grade fever(100 to 102 degrees), stepglader pattrern of fever, associated with stomach pain, diarrhea(loose motions), loss of appetite, and headache"
+                  ],
+                  "type": "description"
+                },
+                {
+                  "type": "chips",
+                  "options": [
+                    {
+                      "postback": "Confirm_Typhoid",
+                      "text": "Confirm Typhoid Symptoms"
+                    }
+                  ]
+                },
+                {
+                  "type": "divider"
+                },
+                {
+                  "text": [
+                    " high grade fever(100 to 104 degrees), severe headaches, pain behind the eyes, joint and muscle pain, skin rash"
+                  ],
+                  "title": "Possible Dengue Symptoms",
+                  "type": "description"
+                },
+                {
+                  "options": [
+                    {
+                      "text": "Confirm Dengue Symptoms",
+                      "postback": "Confirm_Dengue"
+                    }
+                  ],
+                  "type": "chips"
+                },
+                {
+                  "type": "divider"
+                },
+                {
+                  "title": "Possible Malaria Symptoms",
+                  "type": "description",
+                  "text": [
+                    "Fever with chills, profuse sweating, headache,enlarged spleen, nausea, muscle pain, and extreme tiredness."
+                  ]
+                },
+                {
+                  "type": "chips",
+                  "options": [
+                    {
+                      "text": "Confirm Malaria Symptoms",
+                      "postback": "Confirm_Malaria"
+                    },
+                    {
+                      "postback": "Other_Fever_Symptoms",
+                      "text": "Other Symptoms"
+                    }
+                  ]
+                }
+              ]
+            ]
+          },
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

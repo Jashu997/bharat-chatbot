@@ -1,0 +1,36 @@
+{
+  "id": "06f98477-347f-4ede-8990-828fb1060c48",
+  "parentId": "1148889e-56d2-47c1-860e-a43377e9964f",
+  "rootParentId": "fcbaf4b2-e1a7-4591-80d4-25013ed26c79",
+  "name": "Other_Stress_Symptoms",
+  "auto": true,
+  "contexts": [
+    "Stress_Symptom_Check-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "Stress.Stress-custom.Stress_Symptom_Check-custom-2",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

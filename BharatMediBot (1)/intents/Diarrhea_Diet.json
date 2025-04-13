@@ -1,0 +1,39 @@
+{
+  "id": "94f29890-0530-4445-9757-dfdce896bf2f",
+  "parentId": "cee0156a-863d-4b57-bbc1-2c3084488805",
+  "rootParentId": "cee0156a-863d-4b57-bbc1-2c3084488805",
+  "name": "Diarrhea_Diet",
+  "auto": true,
+  "contexts": [
+    "Diarrhea-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "Diarrhea.Diarrhea-custom-2",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "while you are suffering with loose motions it is good to keep body more hydrated so that drink water eventually with gaps low consumption, drink coconut water with which contains electrolytes some pleople want more so add electral  powder to it and drink and for solid food eat curd rice"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

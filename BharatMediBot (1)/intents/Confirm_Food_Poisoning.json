@@ -1,0 +1,39 @@
+{
+  "id": "3f7eee08-867c-4cb1-ac33-3d37d332d859",
+  "parentId": "c4296269-0ce8-415f-a595-b3d31ce84788",
+  "rootParentId": "c606f90c-84aa-4eab-83f4-7d5ee32f8ded",
+  "name": "Confirm_Food_Poisoning",
+  "auto": true,
+  "contexts": [
+    "Vomitings_Symptom_Check-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "Vomitings.Vomitings-custom-4.Vomitings_Symptom_Check-custom-2",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Food poisoning occurs when contaminated food or water causes infection in the digestive system,If symptoms are severe seek medical attention"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

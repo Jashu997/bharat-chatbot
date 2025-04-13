@@ -1,0 +1,39 @@
+{
+  "id": "98e25c1a-45f6-41cd-96cc-8cb3ce9ecfe3",
+  "parentId": "cf18523e-202d-4e42-9a20-6149527a4dae",
+  "rootParentId": "f7509895-4605-4add-9635-9557a2b6ff60",
+  "name": "Confirm_Heat_Waves",
+  "auto": true,
+  "contexts": [
+    "heatwaves_Symptom_Check-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "heatwaves.heatwaves-custom.heatwaves_Symptom_Check-custom-2",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Heat waves can cause extreme temperatures, leading to dehydration, heat exhaustion, and even heatstroke,,To stay safe, drink plenty of water, wear light clothing, avoid direct sun exposure. If you experience severe symptoms, seek medical attention immediately."
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

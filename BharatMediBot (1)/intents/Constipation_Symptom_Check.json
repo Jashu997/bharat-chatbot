@@ -1,0 +1,77 @@
+{
+  "id": "22a3c224-d4af-4307-aca6-3a133f7d9e5c",
+  "parentId": "28eba950-b855-4413-ab6c-321c20b1ed2f",
+  "rootParentId": "28eba950-b855-4413-ab6c-321c20b1ed2f",
+  "name": "Constipation_Symptom_Check",
+  "auto": true,
+  "contexts": [
+    "Constipation-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "Constipation.Constipation-custom",
+      "affectedContexts": [
+        {
+          "name": "Constipation_Symptom_Check-followup",
+          "lifespan": 2
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "please check your constipation symptoms"
+          ],
+          "condition": ""
+        },
+        {
+          "type": "4",
+          "title": "",
+          "payload": {
+            "richContent": [
+              [
+                {
+                  "text": [
+                    "Infrequent bowel movements, hard or lumpy stools, straining while passing stool, bloating, and a feeling of incomplete evacuation."
+                  ],
+                  "title": "Possible Common Constipation Symptoms",
+                  "type": "description"
+                },
+                {
+                  "options": [
+                    {
+                      "postback": "Confirm_Common_Constipation",
+                      "text": "Confirm Common Constipation Symptoms"
+                    },
+                    {
+                      "text": "Other Symptoms",
+                      "postback": "Other_Constipation_Symptoms"
+                    }
+                  ],
+                  "type": "chips"
+                }
+              ]
+            ]
+          },
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

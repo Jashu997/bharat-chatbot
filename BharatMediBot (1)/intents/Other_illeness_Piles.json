@@ -1,0 +1,40 @@
+{
+  "id": "24ac9ebc-2b51-4399-8ec6-fa5eb7164326",
+  "parentId": "6a71c7d2-b451-4f13-b9bd-c10bda9675a7",
+  "rootParentId": "6a71c7d2-b451-4f13-b9bd-c10bda9675a7",
+  "name": "Other_illeness_Piles",
+  "auto": true,
+  "contexts": [
+    "some_remedies-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "some_remedies.some_remedies-custom-3",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "lemon with milk immediate consumption  can helps for piles",
+            "take some Bitter guard powderand it  with butter milk"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

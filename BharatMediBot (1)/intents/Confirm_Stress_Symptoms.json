@@ -1,0 +1,39 @@
+{
+  "id": "cef43219-8cde-4a8d-a132-a2be885f4836",
+  "parentId": "1148889e-56d2-47c1-860e-a43377e9964f",
+  "rootParentId": "fcbaf4b2-e1a7-4591-80d4-25013ed26c79",
+  "name": "Confirm_Stress_Symptoms",
+  "auto": true,
+  "contexts": [
+    "Stress_Symptom_Check-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "Stress.Stress-custom.Stress_Symptom_Check-custom-3",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Stress can affect both the mind and body, leading to symptoms like headaches, muscle tension, fatigue, irritability, trouble sleeping, difficulty concentrating, and digestive issues,                                                    Managing stress through relaxation techniques, exercise, and a balanced diet can help"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

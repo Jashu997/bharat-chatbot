@@ -1,0 +1,39 @@
+{
+  "id": "1f11c495-84e7-48ce-abad-3c6ff77452f1",
+  "parentId": "53f082ca-bad1-4de4-958a-d31f7d1db015",
+  "rootParentId": "2769a09d-d178-428f-b059-a4df3a311dd5",
+  "name": "Hairfall_Naturopathy Remedies",
+  "auto": true,
+  "contexts": [
+    "Hairfall_Remedies-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "Hairfall.Hairfall-custom-3.Hairfall_Remedies-custom-2",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Take Drumstick leaves 2 cups,half cup curd,1/3cup amla powder make whole as paste and apply to your scalp and let it be half an hour and dhead bath,do this twice a week  which helps for mosturizing your scalp"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

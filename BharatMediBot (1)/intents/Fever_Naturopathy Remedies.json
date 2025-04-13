@@ -1,0 +1,58 @@
+{
+  "id": "dc34055e-6c7e-47bf-b4fb-d63609296b9b",
+  "parentId": "9fc8059d-901f-49f7-9862-86037c4e78dd",
+  "rootParentId": "aec7ed07-d8da-4833-9562-c2ff8fd518e5",
+  "name": "Fever_Naturopathy Remedies",
+  "auto": true,
+  "contexts": [
+    "Fever_remedies-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "Fever.Fever-custom.Fever_remedies-custom",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "sleep with an cotton cloth which covers your body on an plain and even bed with a bedsheet on it and now cover your body with wet bead sheet and sleep for few minutes,this even helpful for your high temperature,even though you are repeating with your symptoms please consult your physician"
+          ],
+          "condition": ""
+        },
+        {
+          "type": "4",
+          "title": "",
+          "payload": {
+            "facebook": {
+              "buttons": [
+                {
+                  "type": "web_url",
+                  "title": "Read More on Naturopathy",
+                  "url": "http://manthenasatyanarayanaraju.com/te/"
+                }
+              ],
+              "text": "Sleep with a cotton cloth covering your body on a plain and even bed with a bedsheet on it. Now cover your body with a wet bedsheet and sleep for a few minutes. This is even helpful for high temperature. If symptoms persist, please consult your physician."
+            }
+          },
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

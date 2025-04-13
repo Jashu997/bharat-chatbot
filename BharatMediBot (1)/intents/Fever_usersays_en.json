@@ -1,0 +1,41 @@
+[
+  {
+    "id": "60a9f44f-a828-4131-a51c-64710fb616b5",
+    "data": [
+      {
+        "text": "Fever",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "05d007af-d65c-4160-9be6-10b3ebfe0d5f",
+    "data": [
+      {
+        "text": "suffering with fever",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "213c3802-e7e4-4f44-8ea6-3b166ccd2fe7",
+    "data": [
+      {
+        "text": "i\u0027m having fever",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  }
+]

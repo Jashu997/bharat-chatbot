@@ -1,0 +1,39 @@
+{
+  "id": "4bddf6b5-3579-402d-bb2c-94090dbd5b58",
+  "parentId": "c48b757d-5406-4c78-a388-db91e755cbdc",
+  "rootParentId": "faa64acd-45a4-4d90-bd01-d0acbe576c99",
+  "name": "Confirm_Low_BP",
+  "auto": true,
+  "contexts": [
+    "BP_symptom_check-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "BP.BP-custom.BP_symptom_check-custom",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Your symptoms suggest low blood pressure. While I can provide basic information, a medical professional is best suited to assess your condition. Please consider seeking medical advice from a doctor for appropriate care."
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

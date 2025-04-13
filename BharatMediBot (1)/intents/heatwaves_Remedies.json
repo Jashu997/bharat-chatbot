@@ -1,0 +1,70 @@
+{
+  "id": "734f115c-1d76-4adc-94ce-9298335d2e19",
+  "parentId": "f7509895-4605-4add-9635-9557a2b6ff60",
+  "rootParentId": "f7509895-4605-4add-9635-9557a2b6ff60",
+  "name": "heatwaves_Remedies",
+  "auto": true,
+  "contexts": [
+    "heatwaves-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "heatwaves.heatwaves-custom-4",
+      "affectedContexts": [
+        {
+          "name": "heatwaves_Remedies-followup",
+          "lifespan": 2
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "please tell me which type of remedies do you want?"
+          ],
+          "condition": ""
+        },
+        {
+          "type": "4",
+          "title": "",
+          "payload": {
+            "richContent": [
+              [
+                {
+                  "type": "chips",
+                  "options": [
+                    {
+                      "text": "heatwaves Home Remedies",
+                      "postback": "heatwaves_Home Remedies"
+                    },
+                    {
+                      "postback": "heatwaves_Ayurvedic Remedies",
+                      "text": "heatwaves Ayurvedic Remedies"
+                    }
+                  ]
+                }
+              ]
+            ]
+          },
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

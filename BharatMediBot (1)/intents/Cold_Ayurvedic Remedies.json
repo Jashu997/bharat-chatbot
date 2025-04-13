@@ -1,0 +1,39 @@
+{
+  "id": "27c5d380-f549-4cd0-af3d-d98b84384903",
+  "parentId": "5224238c-0a34-43e3-9804-fb3515c4c858",
+  "rootParentId": "c40be56e-72f9-41a5-b3b8-ca30f7faabca",
+  "name": "Cold_Ayurvedic Remedies",
+  "auto": true,
+  "contexts": [
+    "Cold_Remedies-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "Cold.Cold-custom-3.Cold_Remedies-custom-3",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Take fresh Tulasi leaves, grind them into a paste, and filter the extract using a cloth. Add one spoon of pepper powder to the extract and drink it with water in the morning and evening. Due to its antiviral properties, this remedy helps relieve cough and a sore throat"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

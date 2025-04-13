@@ -1,0 +1,39 @@
+{
+  "id": "d23157e2-274f-4e31-9de6-1e4c2760589e",
+  "parentId": "5224238c-0a34-43e3-9804-fb3515c4c858",
+  "rootParentId": "c40be56e-72f9-41a5-b3b8-ca30f7faabca",
+  "name": "Cold_Home Remedies",
+  "auto": true,
+  "contexts": [
+    "Cold_Remedies-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "Cold.Cold-custom-3.Cold_Remedies-custom",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "1.Take a handful of sugar and heat it over a flame until it produces smoke. Close your eyes and inhale the smoke gently through your nose for relief.\n\n2.Additionally, drinking warm milk with turmeric is beneficial. Lack of sleep can weaken immunity, so consuming honey and lemon juice can help. Drinking ginger tea is also a great remedy for boosting immunity and overall health."
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

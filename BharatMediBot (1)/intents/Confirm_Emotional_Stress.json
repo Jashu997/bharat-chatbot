@@ -1,0 +1,39 @@
+{
+  "id": "e0ba26f9-c186-44fc-b938-0d81c05ab1f1",
+  "parentId": "1148889e-56d2-47c1-860e-a43377e9964f",
+  "rootParentId": "fcbaf4b2-e1a7-4591-80d4-25013ed26c79",
+  "name": "Confirm_Emotional_Stress",
+  "auto": true,
+  "contexts": [
+    "Stress_Symptom_Check-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "Stress.Stress-custom.Stress_Symptom_Check-custom",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Emotional stress can impact both mental and physical well-being, To manage emotional stress, try relaxation techniques, meditation, deep breathing, and talking to a trusted person. If stress becomes overwhelming, consider seeking professional support"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

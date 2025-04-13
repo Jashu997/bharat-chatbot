@@ -1,0 +1,54 @@
+[
+  {
+    "id": "0670c53f-b02c-4f51-ad96-bc108b99975c",
+    "data": [
+      {
+        "text": "BP_Symptom_Check",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "0b9d3340-cc8d-48a9-8601-b1b71355c83f",
+    "data": [
+      {
+        "text": "bood pressure symptoms",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "7672ba2f-6f7c-4ec7-b2a7-dcf7bfc80ce2",
+    "data": [
+      {
+        "text": "what are the symptoms of BP",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "47584c50-0ce3-424f-81b1-d68e73afed2c",
+    "data": [
+      {
+        "text": "Tell me some symptoms of bp",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  }
+]

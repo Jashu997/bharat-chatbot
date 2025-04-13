@@ -1,0 +1,28 @@
+[
+  {
+    "id": "766487b4-483b-4649-af93-eaaeccd563fe",
+    "data": [
+      {
+        "text": "typhoid symptoms confirmation",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "53370591-b50d-4097-a7c8-73dd3bfbb234",
+    "data": [
+      {
+        "text": "Confirm_Typhoid",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  }
+]

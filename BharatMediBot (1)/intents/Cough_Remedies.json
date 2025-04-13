@@ -1,0 +1,74 @@
+{
+  "id": "3f315675-bfcf-4f88-8221-632826e70dc0",
+  "parentId": "9ddf1e42-6a90-4d9d-b1d1-3e3468bb3bac",
+  "rootParentId": "9ddf1e42-6a90-4d9d-b1d1-3e3468bb3bac",
+  "name": "Cough_Remedies",
+  "auto": true,
+  "contexts": [
+    "Cough-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "Cough.Cough-custom",
+      "affectedContexts": [
+        {
+          "name": "Cough_Remedies-followup",
+          "lifespan": 2
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Please let me know which type of remedies do you want?"
+          ],
+          "condition": ""
+        },
+        {
+          "type": "4",
+          "title": "",
+          "payload": {
+            "richContent": [
+              [
+                {
+                  "type": "chips",
+                  "options": [
+                    {
+                      "text": "Cough Home Remedies",
+                      "postback": "Cough_Home Remedies"
+                    },
+                    {
+                      "postback": "Cough_Naturopathy Remedies",
+                      "text": "Cough Naturopathy Remedies"
+                    },
+                    {
+                      "text": "Cough Ayurvedic Remedies",
+                      "postback": "Cough_Ayurvedic Remedies"
+                    }
+                  ]
+                }
+              ]
+            ]
+          },
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

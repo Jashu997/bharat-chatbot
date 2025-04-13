@@ -1,0 +1,40 @@
+{
+  "id": "5d0d7b34-cc86-4e6c-8bf2-7728e2c14b64",
+  "parentId": "f65d1f60-9962-4559-b75b-51bac3948f83",
+  "rootParentId": "cee0156a-863d-4b57-bbc1-2c3084488805",
+  "name": "Diarrhea_Naturopathy Remedies",
+  "auto": true,
+  "contexts": [
+    "Diarrhea-custom-followup",
+    "Diarrhea_Remedies-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "Diarrhea.Diarrhea-custom.Diarrhea_Remedies-custom-3",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Grind tender pomegranate fruit or pomegranate flowers into a smooth paste. Add a pinch of edible camphor(pacha karpooram) to this paste, Form small balls(small size soap nut) from the mixture. Consuming these balls with buttermilk can help relieve diarrhea                                                                                                                       please do check the goodness in your body after taking this or if you feel any dis comfort please consult your doctor"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

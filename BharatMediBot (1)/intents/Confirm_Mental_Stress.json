@@ -1,0 +1,39 @@
+{
+  "id": "18b5445c-bb96-47be-932b-1afb5480bb6b",
+  "parentId": "1148889e-56d2-47c1-860e-a43377e9964f",
+  "rootParentId": "fcbaf4b2-e1a7-4591-80d4-25013ed26c79",
+  "name": "Confirm_Mental_Stress",
+  "auto": true,
+  "contexts": [
+    "Stress_Symptom_Check-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "Stress.Stress-custom.Stress_Symptom_Check-custom",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Mental stress can affect your thoughts, emotions, and overall well-being,To manage mental stress, try mindfulness, deep breathing, meditation, and taking breaks.if the symptoms are getting worse please professionals help which can beneficial"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

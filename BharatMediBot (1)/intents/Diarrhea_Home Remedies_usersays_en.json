@@ -1,0 +1,28 @@
+[
+  {
+    "id": "914b46af-36d8-4c4a-8081-19b182b06906",
+    "data": [
+      {
+        "text": "Diarrhea_Home Remedies",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "e26d4c06-942a-4fd8-ace1-246d91002fa5",
+    "data": [
+      {
+        "text": "I want some home remedies for diarrhea",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  }
+]

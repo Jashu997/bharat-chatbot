@@ -1,0 +1,39 @@
+{
+  "id": "327165a1-c1f9-4c6a-917e-dfe5132d28d1",
+  "parentId": "380fb146-1c07-4096-bff1-bb194e888098",
+  "rootParentId": "9ddf1e42-6a90-4d9d-b1d1-3e3468bb3bac",
+  "name": "Confirm_Dry_Cough",
+  "auto": true,
+  "contexts": [
+    "Cough_Symptom_Check-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "Cough.Cough-custom-3.Cough_Symptom_Check-custom",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Dry cough, also known as a non-productive cough, is a common respiratory symptom that can be caused by various factors such as viral infections, allergies, environmental irritants, asthma, gastroesophageal diseases, and respiratory tract infections so please consult your doctor and poceed based on your symptoms"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

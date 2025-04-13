@@ -1,0 +1,54 @@
+[
+  {
+    "id": "9e6f5028-c7f2-43bc-a327-a86324fe2e6a",
+    "data": [
+      {
+        "text": "Cold",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "9955598a-0387-4794-ba69-494a6b7138ba",
+    "data": [
+      {
+        "text": "let me know about cold",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "bd151aac-9f4b-4be6-8ff5-9dc705e97601",
+    "data": [
+      {
+        "text": "provide me some remedies for cold",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 1,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "da920b54-a048-4709-872b-e0b08326acc9",
+    "data": [
+      {
+        "text": "I want some services for cold",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  }
+]

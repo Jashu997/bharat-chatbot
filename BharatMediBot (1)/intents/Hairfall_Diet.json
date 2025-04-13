@@ -1,0 +1,39 @@
+{
+  "id": "36cf4d71-e3d3-4758-875e-61a4d5efd126",
+  "parentId": "2769a09d-d178-428f-b059-a4df3a311dd5",
+  "rootParentId": "2769a09d-d178-428f-b059-a4df3a311dd5",
+  "name": "Hairfall_Diet",
+  "auto": true,
+  "contexts": [
+    "Hairfall-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "Hairfall.Hairfall-custom-4",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Eat iron rich foods like apricots,luttuce,eat more biotin rich foods like mushrooms 100 grams,panneer,flake seeds and leafy vegies like spring onions menthi, sunflower seeds non vegetarian food like liver,egg"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

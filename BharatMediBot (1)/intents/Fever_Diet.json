@@ -1,0 +1,44 @@
+{
+  "id": "c2dbccdf-c1d4-4137-84ca-97b0b9910a8f",
+  "parentId": "aec7ed07-d8da-4833-9562-c2ff8fd518e5",
+  "rootParentId": "aec7ed07-d8da-4833-9562-c2ff8fd518e5",
+  "name": "Fever_Diet",
+  "auto": true,
+  "contexts": [
+    "Fever-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "Fever.Fever-custom",
+      "affectedContexts": [
+        {
+          "name": "Fever_Diet-followup",
+          "lifespan": 2
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "the foods recomended for fever includes fresh fruits,cooked vegetables,soups(mixed vegetables),coconut water because it is more important to keep your body more hyderated as well some probiotics for good gut health"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

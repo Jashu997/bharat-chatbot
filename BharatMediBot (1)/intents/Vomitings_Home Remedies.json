@@ -1,0 +1,39 @@
+{
+  "id": "a7f11f77-beaa-4759-a48e-8dd75ffa51d7",
+  "parentId": "5f5e14a9-8932-466b-84af-35b63eec67f0",
+  "rootParentId": "c606f90c-84aa-4eab-83f4-7d5ee32f8ded",
+  "name": "Vomitings_Home Remedies",
+  "auto": true,
+  "contexts": [
+    "Vomitings_Remedies-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "Vomitings.Vomitings-custom-3.Vomitings_Remedies-custom",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Take equal amounts of ginger and onion, grind them into a paste, and filter it to extract the liquid. Consume this liquid every 2 hours and observe the result."
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

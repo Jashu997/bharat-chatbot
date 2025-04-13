@@ -1,0 +1,28 @@
+[
+  {
+    "id": "b587712d-d5e5-4f6d-a3eb-cb21014d8bf1",
+    "data": [
+      {
+        "text": "Confirm_Malaria",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "31f9fbb0-cc9e-4c60-ada0-52df44b3224d",
+    "data": [
+      {
+        "text": "Chills and Fatigue",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  }
+]

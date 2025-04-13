@@ -1,0 +1,39 @@
+{
+  "id": "d9b9a966-6713-404c-9acb-62a1075a4b58",
+  "parentId": "6d985a7f-0768-4fb4-be0b-9bbd03249bdc",
+  "rootParentId": "cee0156a-863d-4b57-bbc1-2c3084488805",
+  "name": "Other_Diarrhea_Symptoms",
+  "auto": true,
+  "contexts": [
+    "Diarrhea_Symptom_Check-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "Diarrhea.Diarrhea-custom-2.Diarrhea_Symptom_Check-custom-3",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "I Cannot determine other diarrhea-related symptoms. If you\u0027re experiencing severe or unusual symptoms, please consult your doctor for proper evaluation and guidance."
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

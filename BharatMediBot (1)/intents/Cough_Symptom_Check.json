@@ -1,0 +1,96 @@
+{
+  "id": "380fb146-1c07-4096-bff1-bb194e888098",
+  "parentId": "9ddf1e42-6a90-4d9d-b1d1-3e3468bb3bac",
+  "rootParentId": "9ddf1e42-6a90-4d9d-b1d1-3e3468bb3bac",
+  "name": "Cough_Symptom_Check",
+  "auto": true,
+  "contexts": [
+    "Cough-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "Cough.Cough-custom-3",
+      "affectedContexts": [
+        {
+          "name": "Cough_Symptom_Check-followup",
+          "lifespan": 2
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "please check which type of symptoms do you have"
+          ],
+          "condition": ""
+        },
+        {
+          "type": "4",
+          "title": "",
+          "payload": {
+            "richContent": [
+              [
+                {
+                  "text": [
+                    "cough with out mucus and phlegm, Tickling or irritation in the throat that triggers the cough reflex, a dry and scratchy throat, hoarseness or voice changes, an itchy or irritated sensation in the airway, and throat discomfort or soreness."
+                  ],
+                  "title": "Possible Dry Cough Symptoms",
+                  "type": "description"
+                },
+                {
+                  "type": "chips",
+                  "options": [
+                    {
+                      "postback": "Confirm_Dry_Cough",
+                      "text": "Confirm Dry Cough Symptoms"
+                    }
+                  ]
+                },
+                {
+                  "type": "divider"
+                },
+                {
+                  "type": "description",
+                  "text": [
+                    "Cough with the presence of mucus and phlegm, common cold, flu, pneumonia, and chronic pulmonary disease (lungs)"
+                  ],
+                  "title": "Possible Wet Cough Symptoms"
+                },
+                {
+                  "options": [
+                    {
+                      "text": "Confirm Wet Cough Symptoms",
+                      "postback": "Confirm_Wet_Cough"
+                    },
+                    {
+                      "text": "Other Symptoms",
+                      "postback": "Other_Cough_Symptoms"
+                    }
+                  ],
+                  "type": "chips"
+                }
+              ]
+            ]
+          },
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

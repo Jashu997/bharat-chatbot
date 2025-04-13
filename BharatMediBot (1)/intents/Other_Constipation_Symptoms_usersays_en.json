@@ -1,0 +1,28 @@
+[
+  {
+    "id": "df3e8460-e91f-47c4-ab6a-2d2abc045b4c",
+    "data": [
+      {
+        "text": "other constipation symptoms",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "1c8d78cb-c445-4238-b6ed-f49641680598",
+    "data": [
+      {
+        "text": "Other_Constipation_Symptoms",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  }
+]

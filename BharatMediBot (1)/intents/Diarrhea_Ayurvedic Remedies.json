@@ -1,0 +1,40 @@
+{
+  "id": "e16e2d45-6cf6-4a3a-b302-721a7c9cb140",
+  "parentId": "f65d1f60-9962-4559-b75b-51bac3948f83",
+  "rootParentId": "cee0156a-863d-4b57-bbc1-2c3084488805",
+  "name": "Diarrhea_Ayurvedic Remedies",
+  "auto": true,
+  "contexts": [
+    "Diarrhea-custom-followup",
+    "Diarrhea_Remedies-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "Diarrhea.Diarrhea-custom.Diarrhea_Remedies-custom",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "karakkaya(Haritaki),Thanikaya(Bibhitaki),Amla(Bibhitaki),kaachu(chandr chakra saaram) take all these into powder as 5grams and mix it with butter milk and drink this can help for loose,motions gum motions, and blood motions"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

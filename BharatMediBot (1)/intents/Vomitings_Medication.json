@@ -1,0 +1,39 @@
+{
+  "id": "81887838-f211-4a54-b854-6f2d81625421",
+  "parentId": "c606f90c-84aa-4eab-83f4-7d5ee32f8ded",
+  "rootParentId": "c606f90c-84aa-4eab-83f4-7d5ee32f8ded",
+  "name": "Vomitings_Medication",
+  "auto": true,
+  "contexts": [
+    "Vomitings-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "Vomitings.Vomitings-custom-2",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Domperidone tablets I.P.   Dose-10mg Cause-Domperidone  10 MG Tablet is an effective anti-emetic medicine used to relieve nausea and vomiting caused by delayed gastric emptying (the time it takes for food to empty from the stomach and enter the small intestine). It increases intestinal movements and facilitates the emptying of the bowel. It is used alone or in combination with other medicines for relieving nausea, vomiting and indigestion   2.Domperidone syrup - Helps with nausea and vomiting caused by delayed stomach emptying."
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

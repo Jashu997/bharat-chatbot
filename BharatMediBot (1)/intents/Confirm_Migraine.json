@@ -1,0 +1,39 @@
+{
+  "id": "369d98cc-e46f-41b8-957f-63684e4fb992",
+  "parentId": "f6cb32f3-ebe7-46f1-a559-45b36abac242",
+  "rootParentId": "30e758ed-b458-4519-be50-8bce8df806ce",
+  "name": "Confirm_Migraine",
+  "auto": true,
+  "contexts": [
+    "Headache_Symptom_check-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "Headache.Headache-custom.Headache_Symptom_check-custom",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Migraine is a neurological condition that causes intense headaches,To manage migraines, rest in a dark and quiet place, stay hydrated, and try relaxation techniques. If migraines occur frequently or are severe, consult a doctor for proper treatment."
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

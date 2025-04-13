@@ -1,0 +1,80 @@
+[
+  {
+    "id": "b31f92cb-fde3-4b2e-8d2e-422533cefda3",
+    "data": [
+      {
+        "text": "BP",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "a2572c24-1993-43e4-a552-e2cfcf0a69ac",
+    "data": [
+      {
+        "text": "provide me some services about bp",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "88b270f8-8705-4189-a8ba-345935e4eb52",
+    "data": [
+      {
+        "text": "i want to know about bp",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "6e0daa8c-fa65-4450-879b-16828d39ddf8",
+    "data": [
+      {
+        "text": "tell me about bp",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "8f3b8311-696c-4fbd-9766-c8fd24bd68f7",
+    "data": [
+      {
+        "text": "feeling like tensed is this is a bp symptom",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "5e7c98d1-efb4-4d1d-b124-d5f759e855dc",
+    "data": [
+      {
+        "text": "i am feeling like more serious",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  }
+]

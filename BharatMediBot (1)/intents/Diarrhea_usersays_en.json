@@ -1,0 +1,28 @@
+[
+  {
+    "id": "a8e88036-f777-4afb-8997-e78e85f796e8",
+    "data": [
+      {
+        "text": "Diarrhea",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "e4bf5859-a8ec-485a-913d-50383577316d",
+    "data": [
+      {
+        "text": "provide me some services for Diarrhea",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  }
+]

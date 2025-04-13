@@ -1,0 +1,39 @@
+{
+  "id": "6b5ca3e5-d103-49a0-87ed-74da9e1f5695",
+  "parentId": "f7509895-4605-4add-9635-9557a2b6ff60",
+  "rootParentId": "f7509895-4605-4add-9635-9557a2b6ff60",
+  "name": "heatwaves_Diets",
+  "auto": true,
+  "contexts": [
+    "heatwaves-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "heatwaves.heatwaves-custom-3",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Drink more water stored in a mud pot, as it has a natural cooling effect. Consume juices made from seasonal fruits. Eat curd rice and drink buttermilk, which are rich in probiotics. Include fruits like muskmelon and watermelon in your diet. Also, eat sabudana (sago) for better digestion and energy"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

@@ -1,0 +1,67 @@
+[
+  {
+    "id": "a33139d5-4ce4-4918-82e0-b09c56d8c5c0",
+    "data": [
+      {
+        "text": "Cold_Symptom_Check",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "c704d5c6-a26e-4dc9-adaa-0e313e56fd92",
+    "data": [
+      {
+        "text": "list me some cold symptoms",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "5b402643-f5ec-4240-a78d-367b1ec67a40",
+    "data": [
+      {
+        "text": "want some symptoms of cold",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "96ea2cc6-9921-4419-ae98-a3ad725ef3ac",
+    "data": [
+      {
+        "text": "tell me some symptoms of cold",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "b1fe24e3-0c30-4c04-a84f-6775a66b1ce5",
+    "data": [
+      {
+        "text": "provide me some symptoms checking of cold",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  }
+]

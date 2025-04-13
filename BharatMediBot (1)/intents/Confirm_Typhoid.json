@@ -1,0 +1,39 @@
+{
+  "id": "0a2000be-a934-4fc0-b0b0-d262b1175de7",
+  "parentId": "48ae11f2-0fbe-47c2-97cc-63506c56cea8",
+  "rootParentId": "aec7ed07-d8da-4833-9562-c2ff8fd518e5",
+  "name": "Confirm_Typhoid",
+  "auto": true,
+  "contexts": [
+    "Fever_Symptom_Check-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "Fever.Fever-custom.Fever_Symptom_Check-custom",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Typhoid is a bacterial infection that can cause high fever, weakness, and digestive issues.  it\u0027s good to consult a doctor for proper diagnosis and treatment. Let me know if you need home remedies or diet tips"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

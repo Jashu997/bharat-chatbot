@@ -1,0 +1,39 @@
+{
+  "id": "1cfd89d9-e115-434e-b47b-435381708aea",
+  "parentId": "2769a09d-d178-428f-b059-a4df3a311dd5",
+  "rootParentId": "2769a09d-d178-428f-b059-a4df3a311dd5",
+  "name": "Hairfall_Yoga",
+  "auto": true,
+  "contexts": [
+    "Hairfall-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "Hairfall.Hairfall-custom-2",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Adho Mukha Svanasana (Downward-Facing Dog), Uttanasana (Standing Forward Bend), Vajrasana (Diamond Pose), and Balayam yoga (rubbing fingernails) please do asanas by practice"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

@@ -1,0 +1,90 @@
+{
+  "id": "5fdab8be-207d-4d0d-a88b-4c1c198da40a",
+  "name": "Welocme_Intent",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Namasthe Madam/sir 🙏 I’m BharatMediBot, your friendly medical assistant,I heartly Welcome\u0027s you here to make you know about these illenesses,these are the common illeness for which I provide serices",
+            "Namaste Madam/Sir 🙏 I’m BharatMediBot, your friendly medical assistant.\nI warmly welcome you! I\u0027m here to help you understand and manage common illnesses with ease.\nThese are some of the health issues I can assist you with"
+          ],
+          "condition": ""
+        },
+        {
+          "type": "4",
+          "title": "",
+          "payload": {
+            "richContent": [
+              [
+                {
+                  "type": "chips",
+                  "options": [
+                    {
+                      "text": "BP"
+                    },
+                    {
+                      "text": "Cold"
+                    },
+                    {
+                      "text": "Constipation"
+                    },
+                    {
+                      "text": "Cough"
+                    },
+                    {
+                      "text": "Diarrhea"
+                    },
+                    {
+                      "text": "Fever"
+                    },
+                    {
+                      "text": "Hairfall"
+                    },
+                    {
+                      "text": "Headache"
+                    },
+                    {
+                      "text": "Heat Waves"
+                    },
+                    {
+                      "text": "Other Illinesses"
+                    },
+                    {
+                      "text": "Stress"
+                    },
+                    {
+                      "text": "Vomitings"
+                    }
+                  ]
+                }
+              ]
+            ]
+          },
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

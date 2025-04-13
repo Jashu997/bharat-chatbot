@@ -1,0 +1,96 @@
+{
+  "id": "6d985a7f-0768-4fb4-be0b-9bbd03249bdc",
+  "parentId": "cee0156a-863d-4b57-bbc1-2c3084488805",
+  "rootParentId": "cee0156a-863d-4b57-bbc1-2c3084488805",
+  "name": "Diarrhea_Symptom_Check",
+  "auto": true,
+  "contexts": [
+    "Diarrhea-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "Diarrhea.Diarrhea-custom-2",
+      "affectedContexts": [
+        {
+          "name": "Diarrhea_Symptom_Check-followup",
+          "lifespan": 2
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "please check your symptoms do you have related to diarrhea"
+          ],
+          "condition": ""
+        },
+        {
+          "type": "4",
+          "title": "",
+          "payload": {
+            "richContent": [
+              [
+                {
+                  "title": "Possible Loose Motions Symptoms",
+                  "type": "description",
+                  "text": [
+                    "Frequent watery bowel movements, dry tongue due to dehydration, reduced urination, high-grade fever, some times vomitings, and low energy levels"
+                  ]
+                },
+                {
+                  "type": "chips",
+                  "options": [
+                    {
+                      "text": "Confirm Loose Motions Symptoms",
+                      "postback": "Confirm_Loose_Motions"
+                    }
+                  ]
+                },
+                {
+                  "type": "divider"
+                },
+                {
+                  "type": "description",
+                  "text": [
+                    "motion with mucus,frequent motion,some times blood in stool,stomach pain, weight loss,suffering with IBD(irretable bowel disase)"
+                  ],
+                  "title": "Possible Gum Motions Symptoms"
+                },
+                {
+                  "options": [
+                    {
+                      "postback": "Confirm_Gum_Motions",
+                      "text": "Confirm Gum Motions Symptoms"
+                    },
+                    {
+                      "postback": "Other_Diarrhea_Symptoms",
+                      "text": "Other Symptoms"
+                    }
+                  ],
+                  "type": "chips"
+                }
+              ]
+            ]
+          },
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

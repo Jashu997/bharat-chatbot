@@ -1,0 +1,39 @@
+{
+  "id": "f551a9d3-4af4-41ba-8d22-5b7a763028d7",
+  "parentId": "6d985a7f-0768-4fb4-be0b-9bbd03249bdc",
+  "rootParentId": "cee0156a-863d-4b57-bbc1-2c3084488805",
+  "name": "Confirm_Loose_Motions",
+  "auto": true,
+  "contexts": [
+    "Diarrhea_Symptom_Check-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "Diarrhea.Diarrhea-custom-2.Diarrhea_Symptom_Check-custom-2",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "This seems like loose motions symptoms i suggest you to please consult your doctor or if you want any remedies please check with me"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

@@ -1,0 +1,54 @@
+[
+  {
+    "id": "afe2b987-a732-42ce-ba26-c8bd08ce09c0",
+    "data": [
+      {
+        "text": "Cold_Physical_Activity",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "2c6dbeae-0653-4bac-b136-4358221d988b",
+    "data": [
+      {
+        "text": "provide me some activities for cold",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "7edaae73-a0b7-4178-ba8f-1855cc33f2bb",
+    "data": [
+      {
+        "text": "some relaxing activities in cold",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "0c338ba3-62cc-41db-a23e-6b78c5353a7a",
+    "data": [
+      {
+        "text": "provide me some activities to do in cold",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  }
+]

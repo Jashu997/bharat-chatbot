@@ -1,0 +1,39 @@
+{
+  "id": "cd3d6937-56aa-416f-bd65-9c475a18db1f",
+  "parentId": "5f5e14a9-8932-466b-84af-35b63eec67f0",
+  "rootParentId": "c606f90c-84aa-4eab-83f4-7d5ee32f8ded",
+  "name": "Vomitings_Ayurvedic Remedies",
+  "auto": true,
+  "contexts": [
+    "Vomitings_Remedies-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "Vomitings.Vomitings-custom-3.Vomitings_Remedies-custom-2",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "This remedie is useful for healing vomitings,Take equal amounts of cloves (lavangam), cumin seeds (jelakarra), cinnamon (dhalchinachakka), and cardamom. Add a little water and grind them into a paste. Mix this paste with honey and consume it for better health benefits."
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

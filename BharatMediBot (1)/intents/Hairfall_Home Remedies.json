@@ -1,0 +1,39 @@
+{
+  "id": "7ded94a5-fe5b-42ab-a2d1-14d324b165a6",
+  "parentId": "53f082ca-bad1-4de4-958a-d31f7d1db015",
+  "rootParentId": "2769a09d-d178-428f-b059-a4df3a311dd5",
+  "name": "Hairfall_Home Remedies",
+  "auto": true,
+  "contexts": [
+    "Hairfall_Remedies-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "Hairfall.Hairfall-custom-3.Hairfall_Remedies-custom-3",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Take onion paste and apply it to your scalp. Let it dry for half an hour, then take a head bath. This helps with hair growth, reduces hair fall, and improves blood circulation to the scalp"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

@@ -1,0 +1,39 @@
+{
+  "id": "774f858f-41f2-4e04-80e7-00cb8ab91982",
+  "parentId": "fcbaf4b2-e1a7-4591-80d4-25013ed26c79",
+  "rootParentId": "fcbaf4b2-e1a7-4591-80d4-25013ed26c79",
+  "name": "Stress_yoga",
+  "auto": true,
+  "contexts": [
+    "Stress-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "Stress.Stress-custom",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Chandra Bhedana Pranayama – This practice stimulates the parasympathetic nervous system, helping to relax both the brain and body, promoting a sense of calmness.\n\nChandra Nadi Pranayama – A cooling and soothing breathing technique that helps balance emotions and reduces stress.\n\nBhramari Pranayama – Encourages positive thinking by stimulating the amygdala and relaxing the hypothalamus, which helps in emotional regulation and mental calmness.\n\nSheetali Pranayama – Lowers core body temperature, providing a cooling effect that leaves the body feeling refreshed and relaxed."
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

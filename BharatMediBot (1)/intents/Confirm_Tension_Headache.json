@@ -1,0 +1,39 @@
+{
+  "id": "2f7996f3-01bd-45ae-b5bf-4d3327157f7e",
+  "parentId": "f6cb32f3-ebe7-46f1-a559-45b36abac242",
+  "rootParentId": "30e758ed-b458-4519-be50-8bce8df806ce",
+  "name": "Confirm_Tension_Headache",
+  "auto": true,
+  "contexts": [
+    "Headache_Symptom_check-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "Headache.Headache-custom.Headache_Symptom_check-custom-2",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Tension headaches are the most common type of headache,To relieve it, try relaxation techniques, stay hydrated, get enough rest, and avoid stress triggers. If headaches persist frequently, consult a doctor"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

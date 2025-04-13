@@ -1,0 +1,54 @@
+[
+  {
+    "id": "4f632b6f-aa12-463b-ab86-c8c8aeb1d53b",
+    "data": [
+      {
+        "text": "Headache",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "20444f8a-c3fa-4044-80c6-a4d6862b9c8b",
+    "data": [
+      {
+        "text": "i want some natural remedies for headache",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "e62f2e1c-0541-44d7-99b8-999d5bbb04af",
+    "data": [
+      {
+        "text": "tell me some symptoms for headache",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "cb7f7313-2b76-42a4-a77a-d6796c89192b",
+    "data": [
+      {
+        "text": "provide me some remedies for head ache",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  }
+]

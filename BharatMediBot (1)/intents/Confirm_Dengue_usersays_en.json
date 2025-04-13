@@ -1,0 +1,54 @@
+[
+  {
+    "id": "53238184-76b7-4d86-ae15-b485e4ec7736",
+    "data": [
+      {
+        "text": "Confirm_Dengue",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "3aed23e6-faff-4121-8323-2917a3db8404",
+    "data": [
+      {
+        "text": "down of platelet count",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "e8100800-4f08-424a-9768-cc29852e31c4",
+    "data": [
+      {
+        "text": "high temperature",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "6b3d3295-c663-4f4e-ba2e-be1745797271",
+    "data": [
+      {
+        "text": "feels like back bone breaking pain",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  }
+]

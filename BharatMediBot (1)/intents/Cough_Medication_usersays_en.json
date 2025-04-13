@@ -1,0 +1,106 @@
+[
+  {
+    "id": "bcc086a9-a49a-40e7-b1bb-62f25a107666",
+    "data": [
+      {
+        "text": "Cough_Medication",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "dbc03740-634c-400e-978d-81f83ea95aa5",
+    "data": [
+      {
+        "text": "what are the medication for cough?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "1ac28e77-1874-4808-aac8-16c04756c027",
+    "data": [
+      {
+        "text": "i am suffering from the cough can you provide me medication?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "6277044e-bc40-4228-abff-6254073e498a",
+    "data": [
+      {
+        "text": "suggest me a cough syrup?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "86fa45ac-a1cc-493c-ac0e-09cbc669fa16",
+    "data": [
+      {
+        "text": "I need a cough medicine?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "85020e61-5131-453e-9c93-8526754fb6e9",
+    "data": [
+      {
+        "text": "can you provide me a cough medicine?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "ca4dcdd8-5ba6-4fec-9ea1-ffa355dd3247",
+    "data": [
+      {
+        "text": "what dose we want to use when suffering with cough?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "118930a3-8d5e-4eb3-9c19-7ed3bcab1173",
+    "data": [
+      {
+        "text": "what should I take cough medicine?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  }
+]

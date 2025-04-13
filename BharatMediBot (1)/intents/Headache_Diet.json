@@ -1,0 +1,39 @@
+{
+  "id": "fdf3e551-dbb1-4b16-b5bb-fa2698aee25a",
+  "parentId": "30e758ed-b458-4519-be50-8bce8df806ce",
+  "rootParentId": "30e758ed-b458-4519-be50-8bce8df806ce",
+  "name": "Headache_Diet",
+  "auto": true,
+  "contexts": [
+    "Headache-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "Headache.Headache-custom-4",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "1.Increase water intake to 4 to 5 liters per day to help keep your body cool.\n                                                         2.\nDrinking enough water supports regular bowel movements (twice a day), helping to cleanse your stomach.\n                                                          3.\nMaintain a 2-hour gap between drinking water and meals for better digestion.\n                                                            4.\nInclude fresh fruits in your diet for breakfast and in the evening.\n                                                             5.\nTake regular head baths to stay refreshed.\n                                                         6.\nAvoid coffee and tea for better health"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

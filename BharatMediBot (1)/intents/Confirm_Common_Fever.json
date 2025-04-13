@@ -1,0 +1,39 @@
+{
+  "id": "1327461e-934e-4620-96ba-82f5e31e9f74",
+  "parentId": "48ae11f2-0fbe-47c2-97cc-63506c56cea8",
+  "rootParentId": "aec7ed07-d8da-4833-9562-c2ff8fd518e5",
+  "name": "Confirm_Common_Fever",
+  "auto": true,
+  "contexts": [
+    "Fever_Symptom_Check-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "Fever.Fever-custom.Fever_Symptom_Check-custom-2",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Fever is usually a sign that your body is fighting an infection, If the fever persists for more than 3 days or is very high, consult a doctor. Let me know if you need home remedies or care tips!\""
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

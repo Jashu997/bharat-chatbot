@@ -1,0 +1,28 @@
+[
+  {
+    "id": "6a2d70bd-b08a-4c1f-8381-28fca5af6ac0",
+    "data": [
+      {
+        "text": "Diarrhea_Ayurvedic Remedies",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "f20b62e8-9c95-4501-92c1-bc0bffa5c71c",
+    "data": [
+      {
+        "text": "tell me some ayurvedic remedies",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  }
+]

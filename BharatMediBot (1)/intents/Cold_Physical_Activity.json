@@ -1,0 +1,39 @@
+{
+  "id": "06a7f0c9-fced-400e-9447-29c855ea9c8b",
+  "parentId": "c40be56e-72f9-41a5-b3b8-ca30f7faabca",
+  "rootParentId": "c40be56e-72f9-41a5-b3b8-ca30f7faabca",
+  "name": "Cold_Physical_Activity",
+  "auto": true,
+  "contexts": [
+    "Cold-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "Cold.Cold-custom",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Go jogging with natural and deep breathing, allowing yourself to inhale fresh air properly for about 20 minutes. After that, practice Surya Namaskar to help your body absorb more oxygen for an extended period. Finally, perform Pranayama only if needed to further enhance your breathing and overall well-being."
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

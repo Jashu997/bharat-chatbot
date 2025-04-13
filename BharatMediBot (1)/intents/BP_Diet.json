@@ -1,0 +1,93 @@
+{
+  "id": "a5a30bbf-898d-4b07-b545-145c50d44540",
+  "parentId": "faa64acd-45a4-4d90-bd01-d0acbe576c99",
+  "rootParentId": "faa64acd-45a4-4d90-bd01-d0acbe576c99",
+  "name": "BP_Diet",
+  "auto": true,
+  "contexts": [
+    "BP-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "BP.BP-custom-3",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "BP Diet Information"
+          ],
+          "condition": ""
+        },
+        {
+          "type": "4",
+          "title": "",
+          "payload": {
+            "richContent": [
+              [
+                {
+                  "title": "Tips for Managing Blood Pressure",
+                  "type": "description",
+                  "text": [
+                    "Follow these diet and lifestyle changes to maintain healthy blood pressure levels."
+                  ]
+                },
+                {
+                  "title": "1️⃣ Reduce Salt \u0026 Add Potassium",
+                  "subtitle": "Lower salt intake \u0026 eat potassium-rich foods.",
+                  "type": "accordion",
+                  "text": [
+                    "Eat foods like bananas, oranges, and leafy greens to keep blood vessels healthy."
+                  ]
+                },
+                {
+                  "title": "2️⃣ Forenoon and Evening Diet",
+                  "type": "accordion",
+                  "text": [
+                    "🍎 Morning: Eat 3-4 fruits (Guava, Papaya, Orange, Banana).",
+                    "🍉 Evening (before 7 PM): Eat fruits like Muskmelon, Watermelon, Banana, or Apple.",
+                    "🌱 After 15 Days: Add sprouts (Alkaline Diet) for better energy."
+                  ],
+                  "subtitle": "A simple day plan for BP control."
+                },
+                {
+                  "text": [
+                    "Include fresh salads in meals for better BP management."
+                  ],
+                  "subtitle": "Reduce salt intake naturally.",
+                  "title": "3️⃣ Eat Fresh Salads",
+                  "type": "accordion"
+                },
+                {
+                  "type": "accordion",
+                  "text": [
+                    "Include beetroot in your diet to boost nitric oxide levels."
+                  ],
+                  "title": "4️⃣ Eat Nitrate-Rich Foods",
+                  "subtitle": "Improve blood circulation \u0026 heart health."
+                }
+              ]
+            ]
+          },
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

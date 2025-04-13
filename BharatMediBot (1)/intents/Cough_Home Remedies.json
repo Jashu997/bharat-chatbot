@@ -1,0 +1,39 @@
+{
+  "id": "c606479a-87e3-49b6-b9e5-3b93edd130fc",
+  "parentId": "3f315675-bfcf-4f88-8221-632826e70dc0",
+  "rootParentId": "9ddf1e42-6a90-4d9d-b1d1-3e3468bb3bac",
+  "name": "Cough_Home Remedies",
+  "auto": true,
+  "contexts": [
+    "Cough_Remedies-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "Cough.Cough-custom.Cough_Remedies-custom-2",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "1).Take a small piece of ginger and mix it with Sindhav Lavana (rock salt). Chew the mixture slowly in your mouth. This remedy is highly effective in relieving dry cough.                                                                                                                      \n                                                                                                                                                                                          \n2).Take one spoon of ajwain (carom seeds), a small amount of salt, and one clove. Grind them into a fine powder. Chew and swallow this mixture to help relieve chronic cough effectively."
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

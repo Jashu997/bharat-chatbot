@@ -1,0 +1,39 @@
+{
+  "id": "045b0f33-3634-4b0c-b4f3-d7364e277a35",
+  "parentId": "3f315675-bfcf-4f88-8221-632826e70dc0",
+  "rootParentId": "9ddf1e42-6a90-4d9d-b1d1-3e3468bb3bac",
+  "name": "Cough_Naturopathy Remedies",
+  "auto": true,
+  "contexts": [
+    "Cough_Remedies-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "Cough.Cough-custom.Cough_Remedies-custom-3",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Chew a neem stick and spit it out. The bitterness helps reduce toxins and keeps your mouth fresh. Additionally, do facial steam inhalation by adding turmeric to the water for better respiratory health and a refreshing effect."
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

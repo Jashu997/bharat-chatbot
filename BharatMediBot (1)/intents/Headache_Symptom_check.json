@@ -1,0 +1,134 @@
+{
+  "id": "f6cb32f3-ebe7-46f1-a559-45b36abac242",
+  "parentId": "30e758ed-b458-4519-be50-8bce8df806ce",
+  "rootParentId": "30e758ed-b458-4519-be50-8bce8df806ce",
+  "name": "Headache_Symptom_check",
+  "auto": true,
+  "contexts": [
+    "Headache-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "Headache.Headache-custom",
+      "affectedContexts": [
+        {
+          "name": "Headache_Symptom_check-followup",
+          "lifespan": 2
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "please check your head ache symptoms"
+          ],
+          "condition": ""
+        },
+        {
+          "type": "4",
+          "title": "",
+          "payload": {
+            "richContent": [
+              [
+                {
+                  "type": "description",
+                  "title": "Possible Tension Headache Symptoms",
+                  "text": [
+                    "Dull, aching head pain, pressure around forehead, tenderness on scalp, neck, and shoulder muscles, mild to moderate pain."
+                  ]
+                },
+                {
+                  "options": [
+                    {
+                      "text": "Confirm Tension Headache Symptoms",
+                      "postback": "Confirm_Tension_Headache"
+                    }
+                  ],
+                  "type": "chips"
+                },
+                {
+                  "type": "divider"
+                },
+                {
+                  "title": "Possible Migraine Symptoms",
+                  "text": [
+                    "Severe throbbing pain, usually on one side of the head, nausea, vomiting, sensitivity to light and sound, visual disturbances (auras)."
+                  ],
+                  "type": "description"
+                },
+                {
+                  "type": "chips",
+                  "options": [
+                    {
+                      "postback": "Confirm_Migraine",
+                      "text": "Confirm Migraine Symptoms"
+                    }
+                  ]
+                },
+                {
+                  "type": "divider"
+                },
+                {
+                  "text": [
+                    "Intense burning or piercing pain around one eye, watery eyes, nasal congestion, restlessness, sweating on the face."
+                  ],
+                  "title": "Possible Cluster Headache Symptoms",
+                  "type": "description"
+                },
+                {
+                  "type": "chips",
+                  "options": [
+                    {
+                      "text": "Confirm Cluster Headache Symptoms",
+                      "postback": "Confirm_Cluster_Headache"
+                    }
+                  ]
+                },
+                {
+                  "type": "divider"
+                },
+                {
+                  "type": "description",
+                  "title": "Possible Sinus Headache Symptoms",
+                  "text": [
+                    "Deep, constant pain in the forehead, cheekbones, or bridge of the nose, nasal congestion, facial swelling, pressure around sinuses."
+                  ]
+                },
+                {
+                  "options": [
+                    {
+                      "text": "Confirm Sinus Headache Symptoms",
+                      "postback": "Confirm_Sinus_Headache"
+                    },
+                    {
+                      "text": "Other Symptoms",
+                      "postback": "Other_Headache_Symptoms"
+                    }
+                  ],
+                  "type": "chips"
+                }
+              ]
+            ]
+          },
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

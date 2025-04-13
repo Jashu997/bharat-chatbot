@@ -1,0 +1,39 @@
+{
+  "id": "7ee82877-567f-48fd-a061-8f9ce8b7a4b4",
+  "parentId": "faa64acd-45a4-4d90-bd01-d0acbe576c99",
+  "rootParentId": "faa64acd-45a4-4d90-bd01-d0acbe576c99",
+  "name": "BP_medication",
+  "auto": true,
+  "contexts": [
+    "BP-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "BP.BP-custom",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "CARDIGLOW-H40(Telmisartan and Hydrochlorothiazide Tablets IP) dose-40mg, Cause-  used to treat high blood pressure (hypertension).please check the medicine while using and consult your doctor"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

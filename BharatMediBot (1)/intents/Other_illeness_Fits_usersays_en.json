@@ -1,0 +1,54 @@
+[
+  {
+    "id": "ef3d3fb2-abb9-4a0d-ac44-1d7969422e48",
+    "data": [
+      {
+        "text": "Other_illeness_Fits",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "6d5ad668-5292-4713-932c-31b4d8a38051",
+    "data": [
+      {
+        "text": "i want remedie for fits",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "656f92ac-4e05-4613-af26-abcf094f480f",
+    "data": [
+      {
+        "text": "some remedie for fits",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "60b22527-7a85-466e-a0db-3431bf06e097",
+    "data": [
+      {
+        "text": "fits remedies",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 1,
+    "lang": "en",
+    "updated": 0
+  }
+]

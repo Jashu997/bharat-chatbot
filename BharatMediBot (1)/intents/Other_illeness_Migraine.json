@@ -1,0 +1,39 @@
+{
+  "id": "8b510344-8ab2-4cd1-a22d-7ea2307ea7fe",
+  "parentId": "6a71c7d2-b451-4f13-b9bd-c10bda9675a7",
+  "rootParentId": "6a71c7d2-b451-4f13-b9bd-c10bda9675a7",
+  "name": "Other_illeness_Migraine",
+  "auto": true,
+  "contexts": [
+    "some_remedies-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "some_remedies.some_remedies-custom",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Mint leaves with hot water can helps to reduction of head ache(migraine) please check the severity and do accordingly"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

@@ -1,0 +1,40 @@
+{
+  "id": "3839b414-570a-499d-8519-be959dbc130d",
+  "parentId": "f65d1f60-9962-4559-b75b-51bac3948f83",
+  "rootParentId": "cee0156a-863d-4b57-bbc1-2c3084488805",
+  "name": "Diarrhea_Home Remedies",
+  "auto": true,
+  "contexts": [
+    "Diarrhea-custom-followup",
+    "Diarrhea_Remedies-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "Diarrhea.Diarrhea-custom.Diarrhea_Remedies-custom-2",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Take a pinch of sunnam (lime powder) and half a teaspoon of cumin seeds (jelakarra).Crush them together in your hand,Consume the mixture.After that, drink some warm water for gum motions"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

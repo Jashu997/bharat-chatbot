@@ -1,0 +1,28 @@
+[
+  {
+    "id": "5f7097c1-2452-41cf-bd37-85466e1fa559",
+    "data": [
+      {
+        "text": "Fever_Symptom_Check",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "17ba96f0-584c-4253-92f0-9313c7c13f01",
+    "data": [
+      {
+        "text": "Fever symptoms",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  }
+]

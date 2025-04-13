@@ -1,0 +1,36 @@
+{
+  "id": "02c896ae-d245-4c0c-a7fc-00870378a447",
+  "name": "acknowledge",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Thank you for visiting our Bharat Medibot! I’m here to assist you with  remedies, and symptom checks, Diet, physical activities, Let me know how I can help for more!\"",
+            "Thank you for your query, hope you get well soon!"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}
